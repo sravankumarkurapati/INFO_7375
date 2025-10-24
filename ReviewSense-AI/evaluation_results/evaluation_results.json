@@ -1,0 +1,200 @@
+{
+  "baseline": {
+    "config": {
+      "description": "Base TinyLlama without fine-tuning"
+    },
+    "metrics": {
+      "rouge1": 0.3280987409964219,
+      "rouge2": 0.16317029794928462,
+      "rougeL": 0.25985130753985286,
+      "bleu": 0.10250488140405763
+    },
+    "sample_predictions": [
+      {
+        "review_id": 0,
+        "original_text": "I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous patch had blown - WAIT, WHAT? I just got the tire and never needed to have it patched? This was supposed to be a new tire. \\nI took the tire over to Flynn's and they told me that someone punctured my tire, then tried to patch it. So there are resentful tire slashers? I find that very unlikely. After arguing with the guy and telling him that his logic was far fetched he said he'd give me a new tire \\\"this time\\\". \\nI will never go back to Flynn's b/c of the way this guy treated me and the simple fact that they gave me a used tire!",
+        "rating": 1,
+        "prediction": "Review: I got new tires from Flynn's, but within two weeks, one of them had a flat. I took my car to a local mechanic, who said the previous patch had blown, but I had a flat instead. The tire company stated that a new tire was supposed to be installed, but someone had punctured it, then attempted to patch it. Despite the initial disappointment, the tire company apologized for the inconvenience and offered to replace the tire free of charge. The review highlights the resentful tire slashers and the lack of attention to detail in Flynn's handling of the situation.",
+        "reference": "I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous pa"
+      },
+      {
+        "review_id": 1,
+        "original_text": "Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, nothing.",
+        "rating": 1,
+        "prediction": "Task: Generate a concise summary of the review highlighting key points and sentiment.\n\nTask: Generate a summary of the review.\n\nTask: Generate a summary of the review highlighting key points and sentiment.\n\nTask: Generate a summary of the review highlighting key points and sentiment.\n\nTask: Generate a summary of the review highlighting key points and sentiment.",
+        "reference": "Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, not"
+      },
+      {
+        "review_id": 2,
+        "original_text": "All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room. A fish tank with filthy, slimy fingerprints smeared all over it is there for your enjoyment.\\n\\nOur food came... no water to drink, no tea, medium temperature food. Of course its cold, just like the room, I never took my jacket off! The plates are too small, you food spills over onto some semi-clean tables as you sit in your completely worn out booth seat. The fried noodles were out of a box and nasty, the shrimp was mushy, the fried rice was bright yellow.\\n\\nWe asked for water, they brought us 1 in a SOLO cup for 2 people. I asked for hot tea, they said 10 minutes. What Chinese restaurant does not have hot tea available upon request?\\n\\nOver all.... my first and last visit to this place. The only good point was that it was cheap, and deservingly so.",
+        "rating": 1,
+        "prediction": "Review: The worst lunch experience I've ever had. The place was packed with kids' toys and bicycles, and the food was overcooked and served in a freezing dining room. The fish tank had slimy fingerprints all over it, and the food was served at a cold temperature. The plates were small and the food spilled over onto some semi-clean dishes. The customer service was lacking, and the overall experience was unpleasant.",
+        "reference": "All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room"
+      },
+      {
+        "review_id": 3,
+        "original_text": "I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and the place was empty. When I complained the manager was very rude and tried to blame us for taking to long to order. It made no sense, how could we order when the waitress wasn't coming to the table? After arguing with me he ended up taking $6 off of our $200+ bill. Ridiculous. If it were up to me I would have never returned. Unfortunately my family decided to go here again tonight. Again it took a long time to get our food. My food was cold and bland, my kids food was cold. My husbands salmon was burnt to a crisp and my sister in law took one bite of her trout and refused to eat any more because she claims it was so disgusting. The wedding soup and bread were good, but that's it! My drink sat empty throughout my meal and never got refilled even when I asked. Bad food, slow service and rude managers. I'll pass on this place if my family decides to go again. Not worth it at all with all the other good Italian options around.",
+        "rating": 1,
+        "prediction": "Review: We were disappointed with the service and food at this restaurant. The waiter was rude and took forever to bring our food, which took nearly three hours. The manager was also unhelpful and tried to blame us for taking too long to order. It made no sense, as the waiter wasn't coming to the table and the manager ended up taking $6 off of our bill. This review highlights the frustration and disappointment experienced by the reviewers, as well as the negative sentiment towards the restaurant.",
+        "reference": "I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and t"
+      },
+      {
+        "review_id": 4,
+        "original_text": "Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a huge plate of spring mix (nothing else in it) with WAY to much vinegar dressing. My lettuce was drowning in the vinegar. My pesto pasta had no flavor (did not taste like a cream sauce to me) & the pesto was so runny/watery & way too much sauce not enough noodles. My husband's pasta had even less flavor than mine. We ate about a quarter of the food & couldn't even finish it. We took it home & it was so bad I didn't even eat my leftovers. And I hate wasting food!! Plus the prices are expensive for the amount of food you get & of course the poor quality. Don't waste your time eating here. There are much better Italian restaurants in Pittsburgh.",
+        "rating": 1,
+        "prediction": "Review: The food at this restaurant was not good at all. The salad ordered by my husband was a huge plate of spring mix with too much vinegar dressing, and the pasta he ordered, while having some flavor, was far from creamy and had too much sauce. The pesto pasta he ordered was also watery and lacked any pesto flavor. My husband's pasta dish was even worse, with less flour than what was ordered and too much sauce. The overall experience was not worth the price, and we did not return.",
+        "reference": "Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a"
+      }
+    ]
+  },
+  "exp1": {
+    "config": {
+      "lr": "2e-4",
+      "r": 8,
+      "description": "LR=2e-4, r=8"
+    },
+    "metrics": {
+      "rouge1": 0.47667571045419244,
+      "rouge2": 0.4341898280284943,
+      "rougeL": 0.46354325133917407,
+      "bleu": 0.26821150923732145
+    },
+    "sample_predictions": [
+      {
+        "review_id": 0,
+        "original_text": "I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous patch had blown - WAIT, WHAT? I just got the tire and never needed to have it patched? This was supposed to be a new tire. \\nI took the tire over to Flynn's and they told me that someone punctured my tire, then tried to patch it. So there are resentful tire slashers? I find that very unlikely. After arguing with the guy and telling him that his logic was far fetched he said he'd give me a new tire \\\"this time\\\". \\nI will never go back to Flynn's b/c of the way this guy treated me and the simple fact that they gave me a used tire!",
+        "rating": 1,
+        "prediction": "Review: I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous patch had blown - WAIT, WHAT? I just got the tire and never needed to have it patched? This was supposed to be a new tire. \\nI took the tire over to Flynn's and they told me that someone punctured my tire, then tried to patch it. So there are resentful tire slashers? I f...\n\n**Overall Sentiment**: Negative\n**",
+        "reference": "I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous pa"
+      },
+      {
+        "review_id": 1,
+        "original_text": "Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, nothing.",
+        "rating": 1,
+        "prediction": "Review: Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them. Not a call, not the estimate, nothing...\n\nSentiment: Negative",
+        "reference": "Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, not"
+      },
+      {
+        "review_id": 2,
+        "original_text": "All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room. A fish tank with filthy, slimy fingerprints smeared all over it is there for your enjoyment.\\n\\nOur food came... no water to drink, no tea, medium temperature food. Of course its cold, just like the room, I never took my jacket off! The plates are too small, you food spills over onto some semi-clean tables as you sit in your completely worn out booth seat. The fried noodles were out of a box and nasty, the shrimp was mushy, the fried rice was bright yellow.\\n\\nWe asked for water, they brought us 1 in a SOLO cup for 2 people. I asked for hot tea, they said 10 minutes. What Chinese restaurant does not have hot tea available upon request?\\n\\nOver all.... my first and last visit to this place. The only good point was that it was cheap, and deservingly so.",
+        "rating": 1,
+        "prediction": "Review: All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room. A fish tank with filthy, slimy fingerprints smeared all over it is there for your enjoyment. Our food came... no water to drink, no tea, medium temperature food. Of course its cold, just like the room, I never took my jacket off! The plates are too small, you food spills over onto some semi-clean surfaces. The worst review I've ever read! \\",
+        "reference": "All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room"
+      },
+      {
+        "review_id": 3,
+        "original_text": "I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and the place was empty. When I complained the manager was very rude and tried to blame us for taking to long to order. It made no sense, how could we order when the waitress wasn't coming to the table? After arguing with me he ended up taking $6 off of our $200+ bill. Ridiculous. If it were up to me I would have never returned. Unfortunately my family decided to go here again tonight. Again it took a long time to get our food. My food was cold and bland, my kids food was cold. My husbands salmon was burnt to a crisp and my sister in law took one bite of her trout and refused to eat any more because she claims it was so disgusting. The wedding soup and bread were good, but that's it! My drink sat empty throughout my meal and never got refilled even when I asked. Bad food, slow service and rude managers. I'll pass on this place if my family decides to go again. Not worth it at all with all the other good Italian options around.",
+        "rating": 1,
+        "prediction": "Review: I have been to this restaurant twice and was disappointed both times. I won't go back.\n\nSummary: Repeat visitor with a negative perception\n\n**Overall:**\n5/5. Positive aspect\n- Somewhat durable\n\n**Smalls:**\n5/5. Positive aspect\n- Substantive\n- Impressive quality for the price point**\n\n}",
+        "reference": "I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and t"
+      },
+      {
+        "review_id": 4,
+        "original_text": "Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a huge plate of spring mix (nothing else in it) with WAY to much vinegar dressing. My lettuce was drowning in the vinegar. My pesto pasta had no flavor (did not taste like a cream sauce to me) & the pesto was so runny/watery & way too much sauce not enough noodles. My husband's pasta had even less flavor than mine. We ate about a quarter of the food & couldn't even finish it. We took it home & it was so bad I didn't even eat my leftovers. And I hate wasting food!! Plus the prices are expensive for the amount of food you get & of course the poor quality. Don't waste your time eating here. There are much better Italian restaurants in Pittsburgh.",
+        "rating": 1,
+        "prediction": "Review: Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a huge plate of spring mix (nothing else in it) with WAY to much vinegar dressing. My lettuce was drowning in the vinegar. My pesto pasta had no flavor (did not taste like a cream sauce to me) & the pesto was so runny/watery & way too much sauce not enough noodles. My husband's pasta had even",
+        "reference": "Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a"
+      }
+    ]
+  },
+  "exp2": {
+    "config": {
+      "lr": "1e-4",
+      "r": 8,
+      "description": "LR=1e-4, r=8"
+    },
+    "metrics": {
+      "rouge1": 0.5078809481432962,
+      "rouge2": 0.47239834607900455,
+      "rougeL": 0.4942339701681794,
+      "bleu": 0.2939699501745593
+    },
+    "sample_predictions": [
+      {
+        "review_id": 0,
+        "original_text": "I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous patch had blown - WAIT, WHAT? I just got the tire and never needed to have it patched? This was supposed to be a new tire. \\nI took the tire over to Flynn's and they told me that someone punctured my tire, then tried to patch it. So there are resentful tire slashers? I find that very unlikely. After arguing with the guy and telling him that his logic was far fetched he said he'd give me a new tire \\\"this time\\\". \\nI will never go back to Flynn's b/c of the way this guy treated me and the simple fact that they gave me a used tire!",
+        "rating": 1,
+        "prediction": "Review: \"I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous patch had blown - WAIT, WHAT? I just got the tire and never needed to have it patched? This was supposed to be a new tire.\"\n\nPositives:\n- Clear instructions\n- Improper handling\n- Not what was promised\n\nNegatives:\n- Subpar product\n- Disappointing experience\n- Not worth the money\"\n\nSummary: Noteworthy points mentioned: dur",
+        "reference": "I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous pa"
+      },
+      {
+        "review_id": 1,
+        "original_text": "Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, nothing.",
+        "rating": 1,
+        "prediction": "Review: Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, nothing....\\n\\nKey points: \\n- Poor customer service \\n- Conflicting information \\n- Overpriced\"\n\nPositive:\n- Poor customer service\n- Conflicting information\n\nNegative:\n- Not worth the money\"\n\nSummary: Overall satisfaction is not recommended. Outstanding quality and value alternatives are available. Not recommended.\"",
+        "reference": "Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, not"
+      },
+      {
+        "review_id": 2,
+        "original_text": "All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room. A fish tank with filthy, slimy fingerprints smeared all over it is there for your enjoyment.\\n\\nOur food came... no water to drink, no tea, medium temperature food. Of course its cold, just like the room, I never took my jacket off! The plates are too small, you food spills over onto some semi-clean tables as you sit in your completely worn out booth seat. The fried noodles were out of a box and nasty, the shrimp was mushy, the fried rice was bright yellow.\\n\\nWe asked for water, they brought us 1 in a SOLO cup for 2 people. I asked for hot tea, they said 10 minutes. What Chinese restaurant does not have hot tea available upon request?\\n\\nOver all.... my first and last visit to this place. The only good point was that it was cheap, and deservingly so.",
+        "rating": 1,
+        "prediction": "Review: \"All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room. A fish tank with filthy, slimy fingerprints smeared all over it is there for your enjoyment.\\n\\nOur food came... no water to drink, no tea, medium temperature food. Of course its cold, just like the room, I never took my jacket off! The plates are too small, you food spills over onto some semi-clean surfaces. This place is overpr",
+        "reference": "All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room"
+      },
+      {
+        "review_id": 3,
+        "original_text": "I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and the place was empty. When I complained the manager was very rude and tried to blame us for taking to long to order. It made no sense, how could we order when the waitress wasn't coming to the table? After arguing with me he ended up taking $6 off of our $200+ bill. Ridiculous. If it were up to me I would have never returned. Unfortunately my family decided to go here again tonight. Again it took a long time to get our food. My food was cold and bland, my kids food was cold. My husbands salmon was burnt to a crisp and my sister in law took one bite of her trout and refused to eat any more because she claims it was so disgusting. The wedding soup and bread were good, but that's it! My drink sat empty throughout my meal and never got refilled even when I asked. Bad food, slow service and rude managers. I'll pass on this place if my family decides to go again. Not worth it at all with all the other good Italian options around.",
+        "rating": 1,
+        "prediction": "Review: \"I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and the place was empty. When I complained the manager was very rude and tried to blame us for taking to long to order. It made no sense, how could we order when the waitress wasn't coming to the table? After arguing with me he ended up taking $6 off of our $200+ bill. Ridiculous.\"\n\nPositives:\n- Clearly expressed dissatisfaction\n- Noteworthy faults mentioned",
+        "reference": "I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and t"
+      },
+      {
+        "review_id": 4,
+        "original_text": "Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a huge plate of spring mix (nothing else in it) with WAY to much vinegar dressing. My lettuce was drowning in the vinegar. My pesto pasta had no flavor (did not taste like a cream sauce to me) & the pesto was so runny/watery & way too much sauce not enough noodles. My husband's pasta had even less flavor than mine. We ate about a quarter of the food & couldn't even finish it. We took it home & it was so bad I didn't even eat my leftovers. And I hate wasting food!! Plus the prices are expensive for the amount of food you get & of course the poor quality. Don't waste your time eating here. There are much better Italian restaurants in Pittsburgh.",
+        "rating": 1,
+        "prediction": "Review: Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a huge plate of spring mix (nothing else in it) with WAY to much vinegar dressing. My lettuce was drowning in the vinegar. My pesto pasta had no flavor (did not taste like a cream sauce to me) & the pesto was so runny/watery & way too much sauce not enough noodles. My husband's pasta had even",
+        "reference": "Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a"
+      }
+    ]
+  },
+  "exp3": {
+    "config": {
+      "lr": "2e-4",
+      "r": 16,
+      "description": "LR=2e-4, r=16"
+    },
+    "metrics": {
+      "rouge1": 0.4714996545058806,
+      "rouge2": 0.4177332738317206,
+      "rougeL": 0.4516780762211443,
+      "bleu": 0.2607094261677415
+    },
+    "sample_predictions": [
+      {
+        "review_id": 0,
+        "original_text": "I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous patch had blown - WAIT, WHAT? I just got the tire and never needed to have it patched? This was supposed to be a new tire. \\nI took the tire over to Flynn's and they told me that someone punctured my tire, then tried to patch it. So there are resentful tire slashers? I find that very unlikely. After arguing with the guy and telling him that his logic was far fetched he said he'd give me a new tire \\\"this time\\\". \\nI will never go back to Flynn's b/c of the way this guy treated me and the simple fact that they gave me a used tire!",
+        "rating": 1,
+        "prediction": "Review: \"I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous patch had blown - WAIT, WHAT? I just got the tire and never needed to have it patched? This was supposed to be a new tire. \\nI took the tire over to Flynn's and they told me that someone punctured my tire, then tried to patch it. So there are resentful tire slashers?\"\n\nPositives:\n- Convenient location\n- Ex",
+        "reference": "I got 'new' tires from them and within two weeks got a flat. I took my car to a local mechanic to see if i could get the hole patched, but they said the reason I had a flat was because the previous pa"
+      },
+      {
+        "review_id": 1,
+        "original_text": "Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, nothing.",
+        "rating": 1,
+        "prediction": "Review: \"I'm a fan of the restaurant, but have been disappointed with the service and quality of the food. My husband and I were seated promptly and were quickly served. \\n\\nThe food was okay, but not that special. It was a little pricey for what we were served. \\n\\nThe service was fine, but not that special either. We were quickly served, and our food was quickly delivered. \\n\\nI would not go back again, nor would I recommend it to others.\"\n\nProvide: Summary (short and clear), sentiment (positive or negative), and short-stories mentioning positive and negative aspects. [/|user|",
+        "reference": "Don't waste your time.  We had two different people come to our house to give us estimates for a deck (one of them the OWNER).  Both times, we never heard from them.  Not a call, not the estimate, not"
+      },
+      {
+        "review_id": 2,
+        "original_text": "All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room. A fish tank with filthy, slimy fingerprints smeared all over it is there for your enjoyment.\\n\\nOur food came... no water to drink, no tea, medium temperature food. Of course its cold, just like the room, I never took my jacket off! The plates are too small, you food spills over onto some semi-clean tables as you sit in your completely worn out booth seat. The fried noodles were out of a box and nasty, the shrimp was mushy, the fried rice was bright yellow.\\n\\nWe asked for water, they brought us 1 in a SOLO cup for 2 people. I asked for hot tea, they said 10 minutes. What Chinese restaurant does not have hot tea available upon request?\\n\\nOver all.... my first and last visit to this place. The only good point was that it was cheap, and deservingly so.",
+        "rating": 1,
+        "prediction": "Review (All I can say is the worst!): All I can say is the worst!\n\nTask: Summarize this review in 2 sentences.\n- Summary: Reviews summarize\n- Status: Complete\n\n*/|user|*/\nReview summary: \"All I can say is the worst!\"\n\n**/|assistant|**\nReview Summary: \"All I can say is the worst!\"",
+        "reference": "All I can say is the worst! We were the only 2 people in the place for lunch, the place was freezing and loaded with kids toys! 2 bicycles, a scooter, and an electronic keyboard graced the dining room"
+      },
+      {
+        "review_id": 3,
+        "original_text": "I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and the place was empty. When I complained the manager was very rude and tried to blame us for taking to long to order. It made no sense, how could we order when the waitress wasn't coming to the table? After arguing with me he ended up taking $6 off of our $200+ bill. Ridiculous. If it were up to me I would have never returned. Unfortunately my family decided to go here again tonight. Again it took a long time to get our food. My food was cold and bland, my kids food was cold. My husbands salmon was burnt to a crisp and my sister in law took one bite of her trout and refused to eat any more because she claims it was so disgusting. The wedding soup and bread were good, but that's it! My drink sat empty throughout my meal and never got refilled even when I asked. Bad food, slow service and rude managers. I'll pass on this place if my family decides to go again. Not worth it at all with all the other good Italian options around.",
+        "rating": 1,
+        "prediction": "Review: I have been to this restaurant twice and was disappointed both times. I won't go back.\n\nTask: Summarize the review in 2 sentences.\n\n- 2 sentences\n- Short and to the point\n\nExpect:\n- Accuracy\n- Consistency\n\n*/",
+        "reference": "I have been to this restaurant twice and was disappointed both times. I won't go back. The first time we were there almost 3 hours. It took forever to order and then forever for our food to come and t"
+      },
+      {
+        "review_id": 4,
+        "original_text": "Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a huge plate of spring mix (nothing else in it) with WAY to much vinegar dressing. My lettuce was drowning in the vinegar. My pesto pasta had no flavor (did not taste like a cream sauce to me) & the pesto was so runny/watery & way too much sauce not enough noodles. My husband's pasta had even less flavor than mine. We ate about a quarter of the food & couldn't even finish it. We took it home & it was so bad I didn't even eat my leftovers. And I hate wasting food!! Plus the prices are expensive for the amount of food you get & of course the poor quality. Don't waste your time eating here. There are much better Italian restaurants in Pittsburgh.",
+        "rating": 1,
+        "prediction": "Review: Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a huge plate of spring mix (nothing else in it) with WAY to much vinegar dressing. My lettuce was drowning in the vinegar dressing. My pesto pasta had no flavor (did not taste like a cream sauce to me) & the pesto was so runny/watery & way too much noodles. My husband's pasta had even less fl",
+        "reference": "Food was NOT GOOD at all! My husband & I ate here a couple weeks ago for the first time. I ordered a salad & basil pesto cream pasta & my husband ordered the spinach & feta pasta. The salad was just a"
+      }
+    ]
+  }
+}

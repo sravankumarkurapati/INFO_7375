@@ -1,0 +1,129 @@
+{
+  "best_model": "exp2",
+  "total_samples": 200,
+  "metrics": {
+    "rouge1": 0.5078809481432962,
+    "rouge2": 0.47239834607900455,
+    "rougeL": 0.4942339701681794,
+    "bleu": 0.2939699501745593
+  },
+  "baseline_metrics": {
+    "rouge1": 0.3280987409964219,
+    "rouge2": 0.16317029794928462,
+    "rougeL": 0.25985130753985286,
+    "bleu": 0.10250488140405763
+  },
+  "improvement_percent": 54.795153008171695,
+  "error_distribution": {
+    "truncated": 160,
+    "verbatim_copy": 140,
+    "too_short": 0,
+    "repetitive": 59,
+    "off_topic": 0,
+    "no_summary": 0,
+    "format_issues": 200
+  },
+  "well_performing_count": 0,
+  "failure_cases": [
+    {
+      "rating": 1,
+      "prediction": "Review: \"I am not a mean person, not a vindictive person. I bear the friendly people of Pizza Parma no ill will.\"\n\nKey Points:\n- Approach is neutral\n- No negative points mentioned\n\n Sentiment: Negativ",
+      "quality_score": 0.03,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 4,
+      "prediction": "Review: \"I've been to the original Reyna's in Scottsdale and have had a great experience. However, when I came to Phoenix, I was disappointed. The new location is not as good as the old one. I was dis",
+      "quality_score": 0.03230769230769231,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 3,
+      "prediction": "Review: The products and service are great, but the prices are outrageous! \\n\\nI am on a vegan diet and have found this co-op really helpful. If you can get past the prices, the selection is great!!\" ",
+      "quality_score": 0.035172413793103444,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 5,
+      "prediction": "Review: \"I am a helpful assistant that analyzes customer reviews and generates summaries. This review highlights:\n- Excellent value for money\n- Attractive design and modern amenities\n- Outstanding ser",
+      "quality_score": 0.036774193548387096,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 2,
+      "prediction": "Review: REDO!\\n\\nI went to PF Chang's several years ago and was NOT pleased with the food that was presented to me. I thought I was getting Chinese food. My issue: I thought I was getting Chinese food",
+      "quality_score": 0.03686746987951807,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 3,
+      "prediction": "Review: \"Went on a Friday evening for cocktails. I ordered a gin martini, it was delicious. For a snack we ordered pan seared scallops in a strawberry basil sauce. We were so surprised when the huge s",
+      "quality_score": 0.039310344827586205,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 2,
+      "prediction": "Review: \"I moved into the neighborhood, and all I heard was Campiti's this Campiti's that, and how it is without a doubt, the best pizza in the Burgh.\\n\\nSo, of course I tried it, and was pretty excit",
+      "quality_score": 0.03957446808510638,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 2,
+      "prediction": "Review: \"I just moved here back in September and one of the first places i was told to go for great food was Primanti Bros. The food was great as I was told from several people from the area and back ",
+      "quality_score": 0.03966101694915254,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 2,
+      "prediction": "Review: \"I've been to this restaurant twice and I'm still waiting for a reason to come back. The food is great, the service is terrible. The restaurant is so packed that you have to wait for your food",
+      "quality_score": 0.0398019801980198,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    },
+    {
+      "rating": 3,
+      "prediction": "Review: \"Understanding the underlying concept of the sandwiches from way back when, can make a person appreciate Primanti's for what they are.\"\n\nKey: Notable positives, if any\nNotable positives:\n\n\n\nTa",
+      "quality_score": 0.039999999999999994,
+      "issues": [
+        "truncated",
+        "format_issue",
+        "repetitive"
+      ]
+    }
+  ]
+}

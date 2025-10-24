@@ -1,0 +1,11 @@
+{
+  "total_examples": 20000,
+  "train": 14000,
+  "val": 3000,
+  "test": 3000,
+  "task_distribution": {
+    "aspect_analysis": 10000,
+    "summarization": 5000,
+    "sentiment": 5000
+  }
+}
