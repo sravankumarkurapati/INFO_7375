@@ -1,0 +1,653 @@
+{
+  "success": true,
+  "query": "deep reinforcement learning",
+  "timestamp": "2025-11-22T13:39:26.298374",
+  "duration_seconds": 4.765157,
+  "papers": [
+    {
+      "id": "paper_001",
+      "title": "[1811.12560] An Introduction to Deep Reinforcement Learning - arXiv",
+      "url": "https://arxiv.org/abs/1811.12560",
+      "snippet": "This manuscript provides an introduction to deep reinforcement learning models, algorithms and techniques.",
+      "source": "ArXiv",
+      "relevance_score": 0.36317551286181965,
+      "year": 2023
+    },
+    {
+      "id": "paper_006",
+      "title": "Deep reinforcement learning in recommender systems: A survey ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705123000850",
+      "snippet": "This survey aims to provide a timely and comprehensive overview of recent trends of deep reinforcement learning in recommender systems.",
+      "source": "Other",
+      "relevance_score": 0.3150694544325312,
+      "year": 2023
+    },
+    {
+      "id": "paper_002",
+      "title": "Effective Deep Research via Reinforcement Learning from AI ... - arXiv",
+      "url": "https://arxiv.org/abs/2510.15862",
+      "snippet": "Abstract page for arXiv paper 2510.15862: PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust ...",
+      "source": "ArXiv",
+      "relevance_score": 0.29217642152559525,
+      "year": 2023
+    },
+    {
+      "id": "paper_005",
+      "title": "[2412.05265] Reinforcement Learning: An Overview - arXiv",
+      "url": "https://arxiv.org/abs/2412.05265",
+      "snippet": "This manuscript gives a big-picture, up-to-date overview of the field of (deep) reinforcement learning and sequential decision making.",
+      "source": "ArXiv",
+      "relevance_score": 0.2881984408016452,
+      "year": 2023
+    },
+    {
+      "id": "paper_008",
+      "title": "Deep Reinforcement Learning: A Chronological Overview and ...",
+      "url": "https://www.mdpi.com/2673-2688/6/3/46",
+      "snippet": "This paper seeks to provide a comprehensive yet accessible overview of the evolution of deep RL and its leading algorithms.",
+      "source": "Other",
+      "relevance_score": 0.25945054418508917,
+      "year": 2023
+    },
+    {
+      "id": "paper_007",
+      "title": "Must read papers for Reinforcement Learning : r/reinforcementlearning",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1is773d/must_read_papers_for_reinforcement_learning/",
+      "snippet": "For obstacle avoidance and real-time adaptation, \"Learning to Fly via Deep RL\" by Molchanov et al. (2019) is a highly relevant study. A common ...",
+      "source": "Other",
+      "relevance_score": 0.2041094715294139,
+      "year": 2019
+    },
+    {
+      "id": "paper_003",
+      "title": "Plasticine: Accelerating Research in Plasticity-Motivated Deep ...",
+      "url": "https://arxiv.org/abs/2504.17490",
+      "snippet": "However, deep reinforcement learning (RL) systems often suffer from plasticity loss, where neural networks gradually lose their ability to adapt ...",
+      "source": "ArXiv",
+      "relevance_score": 0.20194360646872722,
+      "year": 2023
+    },
+    {
+      "id": "paper_004",
+      "title": "Reinforcement Learning Foundations for Deep Research Systems",
+      "url": "https://arxiv.org/abs/2509.06733",
+      "snippet": "Abstract:Deep research systems, agentic AI that solve complex, multi-step tasks by coordinating reasoning, search across the open web and ...",
+      "source": "ArXiv",
+      "relevance_score": 0.1980043340477049,
+      "year": 2023
+    },
+    {
+      "id": "paper_010",
+      "title": "Deep Reinforcement Learning: A Survey | IEEE Journals & Magazine",
+      "url": "https://ieeexplore.ieee.org/document/9904958/",
+      "snippet": "This article gives a comprehensive overview of the fundamental theories, key algorithms, and primary research domains of DRL. In addition to ...",
+      "source": "IEEE",
+      "relevance_score": 0.16661442443386312,
+      "year": 2023
+    }
+  ],
+  "analyses": [
+    {
+      "success": true,
+      "paper_id": "paper_001",
+      "title": "[1811.12560] An Introduction to Deep Reinforcement Learning - arXiv",
+      "url": "https://arxiv.org/abs/1811.12560",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on [1811.12560] An Introduction to Deep Reinforcement Learning - arXiv"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This manuscript provides an introduction to deep reinforcement learning models, algorithms and techniques",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "machine learning",
+        "deep learning",
+        "model"
+      ],
+      "content_length": 4188
+    },
+    {
+      "success": true,
+      "paper_id": "paper_006",
+      "title": "Deep reinforcement learning in recommender systems: A survey ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0950705123000850",
+      "year": 2023,
+      "source": "Other",
+      "key_findings": [
+        "Research on Deep reinforcement learning in recommender systems: A survey ..."
+      ],
+      "methodology": {
+        "type": "Survey",
+        "approach": "Not specified",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This survey aims to provide a timely and comprehensive overview of recent trends of deep reinforcement learning in recommender systems",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [],
+      "content_length": 135
+    },
+    {
+      "success": true,
+      "paper_id": "paper_002",
+      "title": "Effective Deep Research via Reinforcement Learning from AI ... - arXiv",
+      "url": "https://arxiv.org/abs/2510.15862",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on Effective Deep Research via Reinforcement Learning from AI ... - arXiv"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Not specified",
+        "datasets": [],
+        "metrics": [
+          "accuracy"
+        ]
+      },
+      "main_contribution": "Abstract page for arXiv paper 2510",
+      "limitations": [
+        "Limited training data"
+      ],
+      "technical_terms": [
+        "model",
+        "inference"
+      ],
+      "content_length": 4581
+    },
+    {
+      "success": true,
+      "paper_id": "paper_005",
+      "title": "[2412.05265] Reinforcement Learning: An Overview - arXiv",
+      "url": "https://arxiv.org/abs/2412.05265",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on [2412.05265] Reinforcement Learning: An Overview - arXiv"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Machine Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This manuscript gives a big-picture, up-to-date overview of the field of (deep) reinforcement learning and sequential decision making",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "machine learning",
+        "model"
+      ],
+      "content_length": 3505
+    },
+    {
+      "success": true,
+      "paper_id": "paper_008",
+      "title": "Deep Reinforcement Learning: A Chronological Overview and ...",
+      "url": "https://www.mdpi.com/2673-2688/6/3/46",
+      "year": 2023,
+      "source": "Other",
+      "key_findings": [
+        "We highlight existing limitations and ongoing bottlenecks, such as high data requirements and the need for more transparent, ethically aligned systems",
+        "Finally, we survey potential future directions, highlighting the importance of reliability and ethical considerations for real-world deployments",
+        "Keywords:\ndeep reinforcement learning\n;\npolicy gradient methods\n;\nactor–c"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [
+          "imagenet"
+        ],
+        "metrics": [
+          "accuracy",
+          "precision"
+        ]
+      },
+      "main_contribution": "This paper seeks to provide a comprehensive yet accessible overview of the evolution of deep RL and its leading algorithms",
+      "limitations": [
+        "Finally, we survey potential future directions, highlighting the importance of reliability and ethical considerations for real-world deployments",
+        "Keywords:\ndeep reinforcement learning\n;\npolicy gradient methods\n;\nactor–critic architectures\n;\nmodel-based approaches\n;\non-policy vs",
+        "High computational cost"
+      ],
+      "technical_terms": [
+        "model",
+        "gradient",
+        "training",
+        "neural network",
+        "optimization",
+        "architecture",
+        "machine learning",
+        "convolution",
+        "deep learning",
+        "layer"
+      ],
+      "content_length": 152587
+    },
+    {
+      "success": true,
+      "paper_id": "paper_007",
+      "title": "Must read papers for Reinforcement Learning : r/reinforcementlearning",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1is773d/must_read_papers_for_reinforcement_learning/",
+      "year": 2019,
+      "source": "Other",
+      "key_findings": [
+        "Research on Must read papers for Reinforcement Learning : r/reinforcementlearning"
+      ],
+      "methodology": {
+        "type": "Empirical",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "For obstacle avoidance and real-time adaptation, \"Learning to Fly via Deep RL\" by Molchanov et al",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "deep learning",
+        "gradient"
+      ],
+      "content_length": 1718
+    },
+    {
+      "success": true,
+      "paper_id": "paper_003",
+      "title": "Plasticine: Accelerating Research in Plasticity-Motivated Deep ...",
+      "url": "https://arxiv.org/abs/2504.17490",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on Plasticine: Accelerating Research in Plasticity-Motivated Deep ..."
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "However, deep reinforcement learning (RL) systems often suffer from plasticity loss, where neural networks gradually lose their ability to adapt",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "machine learning",
+        "neural network",
+        "optimization",
+        "training"
+      ],
+      "content_length": 4369
+    },
+    {
+      "success": true,
+      "paper_id": "paper_004",
+      "title": "Reinforcement Learning Foundations for Deep Research Systems",
+      "url": "https://arxiv.org/abs/2509.06733",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on Reinforcement Learning Foundations for Deep Research Systems"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Not specified",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "Abstract:Deep research systems, agentic AI that solve complex, multi-step tasks by coordinating reasoning, search across the open web and",
+      "limitations": [
+        "Reinforcement learning aligns with closed-loop, tool-interaction research by optimizing trajectory-level policies, enabling exploration, recovery behaviors, and principled credit assignment, and it reduces dependence on such human priors and rater biases",
+        "This survey is, to our knowledge, the first dedicated to the RL foundations of deep research systems"
+      ],
+      "technical_terms": [
+        "training",
+        "architecture",
+        "optimization"
+      ],
+      "content_length": 5142
+    },
+    {
+      "success": true,
+      "paper_id": "paper_010",
+      "title": "Deep Reinforcement Learning: A Survey | IEEE Journals & Magazine",
+      "url": "https://ieeexplore.ieee.org/document/9904958/",
+      "year": 2023,
+      "source": "IEEE",
+      "key_findings": [
+        "Research on Deep Reinforcement Learning: A Survey | IEEE Journals & Magazine"
+      ],
+      "methodology": {
+        "type": "Survey",
+        "approach": "Not specified",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This article gives a comprehensive overview of the fundamental theories, key algorithms, and primary research domains of DRL",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [],
+      "content_length": 784
+    }
+  ],
+  "aggregate_insights": {
+    "total_findings": 11,
+    "common_themes": [
+      "machine learning",
+      "model",
+      "deep learning",
+      "training",
+      "optimization",
+      "gradient",
+      "neural network",
+      "architecture",
+      "inference",
+      "convolution"
+    ],
+    "methodological_distribution": {
+      "Experimental": 0.6666666666666666,
+      "Survey": 0.2222222222222222,
+      "Empirical": 0.1111111111111111
+    },
+    "dominant_methodology": "Experimental"
+  },
+  "statistics": {
+    "total_papers": 9,
+    "sources": {
+      "ArXiv": 5,
+      "Other": 3,
+      "IEEE": 1
+    },
+    "year_range": {
+      "min": 2019,
+      "max": 2023
+    },
+    "recent_papers": 8,
+    "relevance": {
+      "average": 0.2543046900318211,
+      "min": 0.16661442443386312,
+      "max": 0.36317551286181965
+    },
+    "papers_analyzed": 9,
+    "methodologies": {
+      "Experimental": 6,
+      "Survey": 2,
+      "Empirical": 1
+    },
+    "aggregate_insights": {
+      "total_findings": 11,
+      "common_themes": [
+        "machine learning",
+        "model",
+        "deep learning",
+        "training",
+        "optimization",
+        "gradient",
+        "neural network",
+        "architecture",
+        "inference",
+        "convolution"
+      ],
+      "methodological_distribution": {
+        "Experimental": 0.6666666666666666,
+        "Survey": 0.2222222222222222,
+        "Empirical": 0.1111111111111111
+      },
+      "dominant_methodology": "Experimental"
+    },
+    "synthesis": {
+      "gaps_identified": 4,
+      "contradictions_found": 0,
+      "clusters_identified": 1,
+      "recommendations_generated": 3
+    },
+    "quality_review": {
+      "overall_score": 9.03,
+      "needs_refinement": false,
+      "dimension_scores": {
+        "completeness": 9.0,
+        "evidence_quality": 9.56,
+        "logical_coherence": 10.0,
+        "gap_analysis_quality": 7.56
+      }
+    }
+  },
+  "phases_completed": [
+    "paper_discovery",
+    "content_analysis",
+    "research_synthesis",
+    "quality_review"
+  ],
+  "message": "Research completed successfully in 4.8s",
+  "synthesis": {
+    "research_gaps": [
+      {
+        "gap_id": 1,
+        "type": "methodological_gap",
+        "title": "Lack of Theoretical studies",
+        "description": "No theoretical research found in the analyzed papers.",
+        "evidence": [
+          "0/9 papers use Theoretical methodology",
+          "This approach could provide valuable insights"
+        ],
+        "confidence": 0.8,
+        "impact": "High",
+        "related_papers": []
+      },
+      {
+        "gap_id": 2,
+        "type": "emerging_area",
+        "title": "Emerging research on inference",
+        "description": "'inference' is mentioned but not extensively studied, indicating a potential emerging area.",
+        "evidence": [
+          "Mentioned in 1 paper(s)",
+          "Could be an emerging or underexplored topic"
+        ],
+        "confidence": 0.65,
+        "impact": "Medium",
+        "related_papers": []
+      },
+      {
+        "gap_id": 3,
+        "type": "emerging_area",
+        "title": "Emerging research on gradient",
+        "description": "'gradient' is mentioned but not extensively studied, indicating a potential emerging area.",
+        "evidence": [
+          "Mentioned in 2 paper(s)",
+          "Could be an emerging or underexplored topic"
+        ],
+        "confidence": 0.65,
+        "impact": "Medium",
+        "related_papers": []
+      },
+      {
+        "gap_id": 4,
+        "type": "emerging_area",
+        "title": "Emerging research on neural network",
+        "description": "'neural network' is mentioned but not extensively studied, indicating a potential emerging area.",
+        "evidence": [
+          "Mentioned in 2 paper(s)",
+          "Could be an emerging or underexplored topic"
+        ],
+        "confidence": 0.65,
+        "impact": "Medium",
+        "related_papers": []
+      }
+    ],
+    "contradictions": [],
+    "trends": {
+      "top_terms": [
+        {
+          "term": "machine learning",
+          "count": 4
+        },
+        {
+          "term": "model",
+          "count": 4
+        },
+        {
+          "term": "deep learning",
+          "count": 3
+        },
+        {
+          "term": "training",
+          "count": 3
+        },
+        {
+          "term": "optimization",
+          "count": 3
+        },
+        {
+          "term": "gradient",
+          "count": 2
+        },
+        {
+          "term": "neural network",
+          "count": 2
+        },
+        {
+          "term": "architecture",
+          "count": 2
+        },
+        {
+          "term": "inference",
+          "count": 1
+        },
+        {
+          "term": "convolution",
+          "count": 1
+        }
+      ],
+      "growing_trends": [
+        {
+          "term": "machine learning",
+          "momentum": "High",
+          "frequency": 4,
+          "recent_ratio": 1.0
+        },
+        {
+          "term": "model",
+          "momentum": "High",
+          "frequency": 4,
+          "recent_ratio": 1.0
+        },
+        {
+          "term": "deep learning",
+          "momentum": "High",
+          "frequency": 3,
+          "recent_ratio": 0.6666666666666666
+        },
+        {
+          "term": "training",
+          "momentum": "High",
+          "frequency": 3,
+          "recent_ratio": 1.0
+        },
+        {
+          "term": "optimization",
+          "momentum": "High",
+          "frequency": 3,
+          "recent_ratio": 1.0
+        }
+      ],
+      "research_momentum": "High"
+    },
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Reinforcement & Learning & Deep",
+        "papers": [
+          "paper_001",
+          "paper_006",
+          "paper_002",
+          "paper_005",
+          "paper_008",
+          "paper_007",
+          "paper_003",
+          "paper_004",
+          "paper_010"
+        ],
+        "size": 9,
+        "representative_papers": [
+          "[1811.12560] An Introduction to Deep Reinforcement Learning - arXiv",
+          "Deep reinforcement learning in recommender systems: A survey ..."
+        ]
+      }
+    ],
+    "recommendations": [
+      {
+        "recommendation_id": 1,
+        "title": "Investigate lack of theoretical studies",
+        "description": "No theoretical research found in the analyzed papers.",
+        "rationale": [
+          "0/9 papers use Theoretical methodology",
+          "This approach could provide valuable insights"
+        ],
+        "priority": "High",
+        "related_gap_id": 1
+      },
+      {
+        "recommendation_id": 2,
+        "title": "Explore machine learning applications",
+        "description": "'machine learning' shows high momentum (High) in recent research.",
+        "rationale": [
+          "Appears in 4 papers",
+          "Growing interest in recent publications"
+        ],
+        "priority": "High",
+        "related_gap_id": null
+      },
+      {
+        "recommendation_id": 3,
+        "title": "Explore model applications",
+        "description": "'model' shows high momentum (High) in recent research.",
+        "rationale": [
+          "Appears in 4 papers",
+          "Growing interest in recent publications"
+        ],
+        "priority": "High",
+        "related_gap_id": null
+      }
+    ],
+    "statistics": {
+      "total_papers": 9,
+      "num_clusters": 1,
+      "num_gaps": 4,
+      "num_contradictions": 0
+    },
+    "visualizations": {
+      "cluster_distribution": "outputs/visualizations/cluster_distribution.png",
+      "publication_timeline": "outputs/visualizations/publication_timeline.png",
+      "citation_network": "outputs/visualizations/citation_network.png"
+    }
+  },
+  "quality_review": {
+    "success": true,
+    "overall_score": 9.03,
+    "dimension_scores": {
+      "completeness": 9.0,
+      "evidence_quality": 9.56,
+      "logical_coherence": 10.0,
+      "gap_analysis_quality": 7.56
+    },
+    "needs_refinement": false,
+    "strengths": [
+      "Comprehensive paper coverage",
+      "High-quality evidence extraction",
+      "Strong logical coherence"
+    ],
+    "weaknesses": [],
+    "refinement_actions": [],
+    "recommendation": "Excellent quality. Ready for publication/submission."
+  }
+}

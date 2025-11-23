@@ -1,0 +1,22 @@
+{
+  "query_history": [
+    {
+      "query": "test query about AI",
+      "timestamp": "2025-11-22T11:24:33.452020"
+    }
+  ],
+  "agent_outputs": {
+    "test_agent": {
+      "output": {
+        "result": "test output"
+      },
+      "timestamp": "2025-11-22T11:24:33.452092"
+    }
+  },
+  "errors": [],
+  "metrics": {
+    "test_metric": [
+      0.85
+    ]
+  }
+}

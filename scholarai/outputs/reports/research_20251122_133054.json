@@ -1,0 +1,457 @@
+{
+  "success": true,
+  "query": "machine learning for healthcare",
+  "timestamp": "2025-11-22T13:30:48.628362",
+  "duration_seconds": 5.986037,
+  "papers": [
+    {
+      "id": "paper_007",
+      "title": "[2206.14397] Fair Machine Learning in Healthcare: A Review - arXiv",
+      "url": "https://arxiv.org/abs/2206.14397",
+      "snippet": "In this survey, we analyze the intersection of fairness in machine learning and healthcare disparities. We adopt a framework based on the principles of ...",
+      "source": "ArXiv",
+      "relevance_score": 0.3821973302626273,
+      "year": 2023
+    },
+    {
+      "id": "paper_005",
+      "title": "Machine Learning in Healthcare - PMC - NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822225/",
+      "snippet": "We discuss the application of ML in several healthcare fields, including radiology, genetics, electronic health records, and neuroimaging.",
+      "source": "Other",
+      "relevance_score": 0.3073169751628965,
+      "year": 2023
+    },
+    {
+      "id": "paper_002",
+      "title": "Uncertainty Quantification for Machine Learning in Healthcare - arXiv",
+      "url": "https://arxiv.org/abs/2505.02874",
+      "snippet": "We expect this study will provide a clear overview of the challenges and opportunities of implementing UQ in the ML pipeline for healthcare, ...",
+      "source": "ArXiv",
+      "relevance_score": 0.29456885492723583,
+      "year": 2023
+    },
+    {
+      "id": "paper_006",
+      "title": "Machine learning and artificial intelligence in research and healthcare",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020138322000766",
+      "snippet": "AI and ML are becoming cornerstones in the medical and healthcare-research domains and are integral in our continued processing and capitalization of robust ...",
+      "source": "Other",
+      "relevance_score": 0.2819447963202841,
+      "year": 2023
+    },
+    {
+      "id": "paper_001",
+      "title": "[2307.14067] Machine Learning Applications In Healthcare - arXiv",
+      "url": "https://arxiv.org/abs/2307.14067",
+      "snippet": "This study aimed to gather ML applications in different areas of healthcare concisely and more effectively so that necessary information can be accessed ...",
+      "source": "ArXiv",
+      "relevance_score": 0.26943481909015776,
+      "year": 2023
+    },
+    {
+      "id": "paper_010",
+      "title": "Machine learning models fail to detect key health deteriorations ...",
+      "url": "https://news.vt.edu/articles/2025/02/virginia-tech-study-published-in-communications-medicine-.html",
+      "snippet": "Machine learning models fail to detect key health deteriorations, Virginia Tech research shows. The study published in Communications Medicine ...",
+      "source": "Other",
+      "relevance_score": 0.15373127771472572,
+      "year": 2023
+    }
+  ],
+  "analyses": [
+    {
+      "success": true,
+      "paper_id": "paper_007",
+      "title": "[2206.14397] Fair Machine Learning in Healthcare: A Review - arXiv",
+      "url": "https://arxiv.org/abs/2206.14397",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on [2206.14397] Fair Machine Learning in Healthcare: A Review - arXiv"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Machine Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "In this survey, we analyze the intersection of fairness in machine learning and healthcare disparities",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "machine learning"
+      ],
+      "content_length": 4429
+    },
+    {
+      "success": true,
+      "paper_id": "paper_005",
+      "title": "Machine Learning in Healthcare - PMC - NIH",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822225/",
+      "year": 2023,
+      "source": "Other",
+      "key_findings": [
+        "Research on Machine Learning in Healthcare - PMC - NIH"
+      ],
+      "methodology": {
+        "type": "Empirical",
+        "approach": "Not specified",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "We discuss the application of ML in several healthcare fields, including radiology, genetics, electronic health records, and neuroimaging",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [],
+      "content_length": 138
+    },
+    {
+      "success": true,
+      "paper_id": "paper_002",
+      "title": "Uncertainty Quantification for Machine Learning in Healthcare - arXiv",
+      "url": "https://arxiv.org/abs/2505.02874",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on Uncertainty Quantification for Machine Learning in Healthcare - arXiv"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Machine Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "We expect this study will provide a clear overview of the challenges and opportunities of implementing UQ in the ML pipeline for healthcare,",
+      "limitations": [
+        "Limited training data"
+      ],
+      "technical_terms": [
+        "machine learning",
+        "model",
+        "training",
+        "inference"
+      ],
+      "content_length": 4766
+    },
+    {
+      "success": true,
+      "paper_id": "paper_006",
+      "title": "Machine learning and artificial intelligence in research and healthcare",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0020138322000766",
+      "year": 2023,
+      "source": "Other",
+      "key_findings": [
+        "Research on Machine learning and artificial intelligence in research and healthcare"
+      ],
+      "methodology": {
+        "type": "Empirical",
+        "approach": "Not specified",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "AI and ML are becoming cornerstones in the medical and healthcare-research domains and are integral in our continued processing and capitalization of robust",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [],
+      "content_length": 160
+    },
+    {
+      "success": true,
+      "paper_id": "paper_001",
+      "title": "[2307.14067] Machine Learning Applications In Healthcare - arXiv",
+      "url": "https://arxiv.org/abs/2307.14067",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "This study aimed to gather ML applications in different areas of healthcare concisely and more effectively so that necessary information can be accessed immediately with relevant references",
+        "We divided our study into five ma"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Machine Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This study aimed to gather ML applications in different areas of healthcare concisely and more effectively so that necessary information can be accessed",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "machine learning"
+      ],
+      "content_length": 4655
+    },
+    {
+      "success": true,
+      "paper_id": "paper_010",
+      "title": "Machine learning models fail to detect key health deteriorations ...",
+      "url": "https://news.vt.edu/articles/2025/02/virginia-tech-study-published-in-communications-medicine-.html",
+      "year": 2023,
+      "source": "Other",
+      "key_findings": [
+        "Machine learning models fail to detect key health deteriorations, Virginia Tech research shows"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Machine Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "Machine learning models fail to detect key health deteriorations, Virginia Tech research shows",
+      "limitations": [
+        "The team developed multiple medical testing approaches, including a gradient ascent method and neural activation map",
+        "Color changes in the neural activation map indicate how well machine learning models react to worsening patient conditions"
+      ],
+      "technical_terms": [
+        "model",
+        "machine learning",
+        "gradient",
+        "optimization",
+        "training"
+      ],
+      "content_length": 5786
+    }
+  ],
+  "aggregate_insights": {
+    "total_findings": 7,
+    "common_themes": [
+      "machine learning",
+      "model",
+      "training",
+      "inference",
+      "gradient",
+      "optimization"
+    ],
+    "methodological_distribution": {
+      "Experimental": 0.6666666666666666,
+      "Empirical": 0.3333333333333333
+    },
+    "dominant_methodology": "Experimental"
+  },
+  "statistics": {
+    "total_papers": 6,
+    "sources": {
+      "ArXiv": 3,
+      "Other": 3
+    },
+    "year_range": {
+      "min": 2023,
+      "max": 2023
+    },
+    "recent_papers": 6,
+    "relevance": {
+      "average": 0.28153234224632123,
+      "min": 0.15373127771472572,
+      "max": 0.3821973302626273
+    },
+    "papers_analyzed": 6,
+    "methodologies": {
+      "Experimental": 4,
+      "Empirical": 2
+    },
+    "aggregate_insights": {
+      "total_findings": 7,
+      "common_themes": [
+        "machine learning",
+        "model",
+        "training",
+        "inference",
+        "gradient",
+        "optimization"
+      ],
+      "methodological_distribution": {
+        "Experimental": 0.6666666666666666,
+        "Empirical": 0.3333333333333333
+      },
+      "dominant_methodology": "Experimental"
+    },
+    "synthesis": {
+      "gaps_identified": 5,
+      "contradictions_found": 0,
+      "clusters_identified": 1,
+      "recommendations_generated": 3
+    }
+  },
+  "phases_completed": [
+    "paper_discovery",
+    "content_analysis",
+    "research_synthesis"
+  ],
+  "message": "Research completed successfully in 6.0s",
+  "synthesis": {
+    "research_gaps": [
+      {
+        "gap_id": 1,
+        "type": "methodological_gap",
+        "title": "Lack of Theoretical studies",
+        "description": "No theoretical research found in the analyzed papers.",
+        "evidence": [
+          "0/6 papers use Theoretical methodology",
+          "This approach could provide valuable insights"
+        ],
+        "confidence": 0.8,
+        "impact": "High",
+        "related_papers": []
+      },
+      {
+        "gap_id": 2,
+        "type": "methodological_gap",
+        "title": "Lack of Survey studies",
+        "description": "No survey research found in the analyzed papers.",
+        "evidence": [
+          "0/6 papers use Survey methodology",
+          "This approach could provide valuable insights"
+        ],
+        "confidence": 0.8,
+        "impact": "High",
+        "related_papers": []
+      },
+      {
+        "gap_id": 3,
+        "type": "emerging_area",
+        "title": "Emerging research on model",
+        "description": "'model' is mentioned but not extensively studied, indicating a potential emerging area.",
+        "evidence": [
+          "Mentioned in 2 paper(s)",
+          "Could be an emerging or underexplored topic"
+        ],
+        "confidence": 0.65,
+        "impact": "Medium",
+        "related_papers": []
+      },
+      {
+        "gap_id": 4,
+        "type": "emerging_area",
+        "title": "Emerging research on training",
+        "description": "'training' is mentioned but not extensively studied, indicating a potential emerging area.",
+        "evidence": [
+          "Mentioned in 2 paper(s)",
+          "Could be an emerging or underexplored topic"
+        ],
+        "confidence": 0.65,
+        "impact": "Medium",
+        "related_papers": []
+      },
+      {
+        "gap_id": 5,
+        "type": "emerging_area",
+        "title": "Emerging research on inference",
+        "description": "'inference' is mentioned but not extensively studied, indicating a potential emerging area.",
+        "evidence": [
+          "Mentioned in 1 paper(s)",
+          "Could be an emerging or underexplored topic"
+        ],
+        "confidence": 0.65,
+        "impact": "Medium",
+        "related_papers": []
+      }
+    ],
+    "contradictions": [],
+    "trends": {
+      "top_terms": [
+        {
+          "term": "machine learning",
+          "count": 4
+        },
+        {
+          "term": "model",
+          "count": 2
+        },
+        {
+          "term": "training",
+          "count": 2
+        },
+        {
+          "term": "inference",
+          "count": 1
+        },
+        {
+          "term": "gradient",
+          "count": 1
+        },
+        {
+          "term": "optimization",
+          "count": 1
+        }
+      ],
+      "growing_trends": [
+        {
+          "term": "machine learning",
+          "momentum": "High",
+          "frequency": 4,
+          "recent_ratio": 1.0
+        }
+      ],
+      "research_momentum": "High"
+    },
+    "clusters": [
+      {
+        "cluster_id": 0,
+        "theme": "Machine & Learning & Healthcare",
+        "papers": [
+          "paper_007",
+          "paper_005",
+          "paper_002",
+          "paper_006",
+          "paper_001",
+          "paper_010"
+        ],
+        "size": 6,
+        "representative_papers": [
+          "[2206.14397] Fair Machine Learning in Healthcare: A Review - arXiv",
+          "Machine Learning in Healthcare - PMC - NIH"
+        ]
+      }
+    ],
+    "recommendations": [
+      {
+        "recommendation_id": 1,
+        "title": "Investigate lack of theoretical studies",
+        "description": "No theoretical research found in the analyzed papers.",
+        "rationale": [
+          "0/6 papers use Theoretical methodology",
+          "This approach could provide valuable insights"
+        ],
+        "priority": "High",
+        "related_gap_id": 1
+      },
+      {
+        "recommendation_id": 2,
+        "title": "Investigate lack of survey studies",
+        "description": "No survey research found in the analyzed papers.",
+        "rationale": [
+          "0/6 papers use Survey methodology",
+          "This approach could provide valuable insights"
+        ],
+        "priority": "High",
+        "related_gap_id": 2
+      },
+      {
+        "recommendation_id": 3,
+        "title": "Explore machine learning applications",
+        "description": "'machine learning' shows high momentum (High) in recent research.",
+        "rationale": [
+          "Appears in 4 papers",
+          "Growing interest in recent publications"
+        ],
+        "priority": "High",
+        "related_gap_id": null
+      }
+    ],
+    "statistics": {
+      "total_papers": 6,
+      "num_clusters": 1,
+      "num_gaps": 5,
+      "num_contradictions": 0
+    },
+    "visualizations": {
+      "cluster_distribution": "outputs/visualizations/cluster_distribution.png",
+      "publication_timeline": "outputs/visualizations/publication_timeline.png",
+      "citation_network": "outputs/visualizations/citation_network.png"
+    }
+  }
+}
