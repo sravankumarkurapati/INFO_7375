@@ -1,0 +1,102 @@
+{
+  "success": true,
+  "query": "Sravan kumar ieee papers",
+  "timestamp": "2025-11-22T11:42:04.256874",
+  "duration_seconds": 2.371456,
+  "papers": [
+    {
+      "id": "paper_003",
+      "title": "K. Sravan Kumar | IEEE Xplore Author Details",
+      "url": "https://ieeexplore.ieee.org/author/690885746999347",
+      "snippet": "Publication Topics. Acceleration Performance,Addition Operations,Architecture Diagram,Calculation Error,Convolutional Neural Network,Correction Mechanism ...",
+      "source": "IEEE",
+      "relevance_score": 0.1378025955125147,
+      "year": 2023
+    },
+    {
+      "id": "paper_001",
+      "title": "Sravan Kumar G. | IEEE Xplore Author Details",
+      "url": "https://ieeexplore.ieee.org/author/774384442895682",
+      "snippet": "Publication Topics. Internet Of Things,F1 Score,Machine Learning,Neural Network,Support Vector Machine,AdaBoost,Anomaly Detection,Convolutional Neural ...",
+      "source": "IEEE",
+      "relevance_score": 0.12884595963453535,
+      "year": 2023
+    },
+    {
+      "id": "paper_009",
+      "title": "‪Sravan Kumar Ankireddy‬ - ‪Google Scholar‬",
+      "url": "https://scholar.google.com.pr/citations?user=j34sU94AAAAJ&hl=fr",
+      "snippet": "Interpreting Neural Min-Sum Decoders. SK Ankireddy, H Kim. 2023 IEEE International Conference on Communications (ICC), 2022. 9*, 2022 ; Exploring Explainability ...",
+      "source": "Google Scholar",
+      "relevance_score": 0.1152438242686904,
+      "year": 2022
+    },
+    {
+      "id": "paper_007",
+      "title": "‪Shravan Kumar‬ - ‪Google Scholar‬",
+      "url": "https://scholar.google.com/citations?user=wDSeMjYAAAAJ&hl=en",
+      "snippet": "A hybrid approach using topic modeling and class-association rule mining for text classification: The case of malware detection. BS Kumar, V Ravi. 2018 IEEE ...",
+      "source": "Google Scholar",
+      "relevance_score": 0.10016795418996038,
+      "year": 2018
+    },
+    {
+      "id": "paper_004",
+      "title": "‪Sravan Kumar Ankireddy‬ - ‪Google Scholar‬",
+      "url": "https://scholar.google.com/citations?user=j34sU94AAAAJ&hl=en",
+      "snippet": "University of Texas at Austin - ‪‪Cited by 95‬‬ - ‪Deep Learning‬ - ‪Representation Learning‬ - ‪Information Theory‬ - ‪Channel Coding‬",
+      "source": "Google Scholar",
+      "relevance_score": 0.09707910494119974,
+      "year": 2023
+    },
+    {
+      "id": "paper_008",
+      "title": "Shravan Kumar - Research ID",
+      "url": "https://researchid.co/shk04",
+      "snippet": "This research paper discusses about AI and it intervention with decision making. ... 2023 IEEE International Conference on Integrated Circuits and ...",
+      "source": "Other",
+      "relevance_score": 0.0813891399025649,
+      "year": 2023
+    },
+    {
+      "id": "paper_010",
+      "title": "Sravan Kumar Sagi | 13 Publications | 27 Citations | Related Authors",
+      "url": "https://scispace.com/authors/sravan-kumar-sagi-abalhkau2j",
+      "snippet": "The author has contributed to research in topics: Antenna (radio) & Microstrip antenna. The author has an hindex of 2, co-authored 13 publications. Claim ...",
+      "source": "Other",
+      "relevance_score": 0.07250723562564351,
+      "year": 2023
+    },
+    {
+      "id": "paper_006",
+      "title": "Shravan Kumar | IEEE Xplore Author Details",
+      "url": "https://ieeexplore.ieee.org/author/37089808894",
+      "snippet": "Publication Topics. Internet Of Things,Artificial Intelligence,Machine Learning,Cloud Computing,Sustainable Development,Big Data,Mental Disorders,Mental ...",
+      "source": "IEEE",
+      "relevance_score": 0.0692212161371313,
+      "year": 2023
+    }
+  ],
+  "statistics": {
+    "total_papers": 8,
+    "sources": {
+      "IEEE": 3,
+      "Google Scholar": 3,
+      "Other": 2
+    },
+    "year_range": {
+      "min": 2018,
+      "max": 2023
+    },
+    "recent_papers": 7,
+    "relevance": {
+      "average": 0.10028212877653003,
+      "min": 0.0692212161371313,
+      "max": 0.1378025955125147
+    }
+  },
+  "phases_completed": [
+    "paper_discovery"
+  ],
+  "message": "Research completed successfully in 2.4s"
+}

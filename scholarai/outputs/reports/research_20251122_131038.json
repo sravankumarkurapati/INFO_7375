@@ -1,0 +1,448 @@
+{
+  "success": true,
+  "query": "deep learning for computer vision",
+  "timestamp": "2025-11-22T13:10:33.509507",
+  "duration_seconds": 5.103192,
+  "papers": [
+    {
+      "id": "paper_010",
+      "title": "Deep Learning For Computer Vision Tasks: A review - ResearchGate",
+      "url": "https://www.researchgate.net/publication/324472206_Deep_Learning_For_Computer_Vision_Tasks_A_review",
+      "snippet": "This paper gives an overview of some of the most widely used deep learning algorithms applied in the field of computer vision.",
+      "source": "ResearchGate",
+      "relevance_score": 0.49656062693509967,
+      "year": 2023
+    },
+    {
+      "id": "paper_004",
+      "title": "[1804.03928] Deep Learning For Computer Vision Tasks: A review",
+      "url": "https://arxiv.org/abs/1804.03928",
+      "snippet": "This paper gives an overview of some of the most widely used deep learning algorithms applied in the field of computer vision.",
+      "source": "ArXiv",
+      "relevance_score": 0.47129060331694417,
+      "year": 2023
+    },
+    {
+      "id": "paper_005",
+      "title": "Deep Learning for Computer Vision: A Brief Review - Voulodimos",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2018/7068349",
+      "snippet": "This review paper provides a brief overview of some of the most significant deep learning schemes used in computer vision problems.",
+      "source": "Other",
+      "relevance_score": 0.4071878705108918,
+      "year": 2023
+    },
+    {
+      "id": "paper_007",
+      "title": "Deep learning in computer vision: A critical review of emerging ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666827021000670",
+      "snippet": "This paper reviews deep learning in computer vision, focusing on eight emerging techniques and four key applications: recognition, visual ...",
+      "source": "Other",
+      "relevance_score": 0.4017563772750695,
+      "year": 2023
+    },
+    {
+      "id": "paper_003",
+      "title": "Deep Active Learning for Computer Vision: Past and Future - arXiv",
+      "url": "https://arxiv.org/abs/2211.14819",
+      "snippet": "This paper reviews deep active learning, covering technical advancements, applications in computer vision, industrial systems, limitations, and ...",
+      "source": "ArXiv",
+      "relevance_score": 0.3646678586694635,
+      "year": 2023
+    },
+    {
+      "id": "paper_006",
+      "title": "Deep Learning for Robust and Explainable Models in Computer Vision",
+      "url": "https://arxiv.org/abs/2403.18674",
+      "snippet": "This thesis addresses robustness and explainability challenges in deep learning for computer vision, using model interpretation to improve robustness.",
+      "source": "ArXiv",
+      "relevance_score": 0.3604079873146208,
+      "year": 2023
+    },
+    {
+      "id": "paper_001",
+      "title": "Research on the Application of Computer Vision Based on Deep ...",
+      "url": "https://arxiv.org/abs/2406.00490",
+      "snippet": "This research aims to explore the application of deep learning in autonomous driving computer vision technology and its impact on improving system performance.",
+      "source": "ArXiv",
+      "relevance_score": 0.30733694100482206,
+      "year": 2023
+    },
+    {
+      "id": "paper_009",
+      "title": "Deep Learning for Computer Vision",
+      "url": "https://aimi.stanford.edu/research/focal-areas/deep-learning-computer-vision",
+      "snippet": "Deep learning is used for staging osteoarthritis, assessing knee abnormalities, classifying chest radiographs, and predicting brain age from MRI data.",
+      "source": "Other",
+      "relevance_score": 0.28382041742722947,
+      "year": 2023
+    },
+    {
+      "id": "paper_002",
+      "title": "Computation-efficient Deep Learning for Computer Vision: A Survey",
+      "url": "https://arxiv.org/abs/2308.13998",
+      "snippet": "This review offers an extensive analysis of this rapidly evolving field by examining four key areas.",
+      "source": "ArXiv",
+      "relevance_score": 0.2145693495364319,
+      "year": 2023
+    },
+    {
+      "id": "paper_008",
+      "title": "A Systematic Literature Review on Deep Learning-based Depth ...",
+      "url": "https://arxiv.org/abs/2501.05147",
+      "snippet": "This paper reviews deep learning methods for depth estimation, which provides spatial information for 3D reconstruction, object detection, and scene ...",
+      "source": "ArXiv",
+      "relevance_score": 0.15878808064066693,
+      "year": 2023
+    }
+  ],
+  "analyses": [
+    {
+      "success": true,
+      "paper_id": "paper_010",
+      "title": "Deep Learning For Computer Vision Tasks: A review - ResearchGate",
+      "url": "https://www.researchgate.net/publication/324472206_Deep_Learning_For_Computer_Vision_Tasks_A_review",
+      "year": 2023,
+      "source": "ResearchGate",
+      "key_findings": [
+        "Research on Deep Learning For Computer Vision Tasks: A review - ResearchGate"
+      ],
+      "methodology": {
+        "type": "Empirical",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This paper gives an overview of some of the most widely used deep learning algorithms applied in the field of computer vision",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "deep learning"
+      ],
+      "content_length": 126
+    },
+    {
+      "success": true,
+      "paper_id": "paper_004",
+      "title": "[1804.03928] Deep Learning For Computer Vision Tasks: A review",
+      "url": "https://arxiv.org/abs/1804.03928",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on [1804.03928] Deep Learning For Computer Vision Tasks: A review"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This paper gives an overview of some of the most widely used deep learning algorithms applied in the field of computer vision",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "deep learning",
+        "neural network",
+        "machine learning",
+        "training"
+      ],
+      "content_length": 3922
+    },
+    {
+      "success": true,
+      "paper_id": "paper_005",
+      "title": "Deep Learning for Computer Vision: A Brief Review - Voulodimos",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2018/7068349",
+      "year": 2023,
+      "source": "Other",
+      "key_findings": [
+        "Research on Deep Learning for Computer Vision: A Brief Review - Voulodimos"
+      ],
+      "methodology": {
+        "type": "Survey",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This review paper provides a brief overview of some of the most significant deep learning schemes used in computer vision problems",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "deep learning"
+      ],
+      "content_length": 131
+    },
+    {
+      "success": true,
+      "paper_id": "paper_007",
+      "title": "Deep learning in computer vision: A critical review of emerging ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666827021000670",
+      "year": 2023,
+      "source": "Other",
+      "key_findings": [
+        "Research on Deep learning in computer vision: A critical review of emerging ..."
+      ],
+      "methodology": {
+        "type": "Survey",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This paper reviews deep learning in computer vision, focusing on eight emerging techniques and four key applications: recognition, visual",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "deep learning"
+      ],
+      "content_length": 141
+    },
+    {
+      "success": true,
+      "paper_id": "paper_003",
+      "title": "Deep Active Learning for Computer Vision: Past and Future - arXiv",
+      "url": "https://arxiv.org/abs/2211.14819",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on Deep Active Learning for Computer Vision: Past and Future - arXiv"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This paper reviews deep active learning, covering technical advancements, applications in computer vision, industrial systems, limitations, and",
+      "limitations": [
+        "We expect this paper to clarify the significance of active learning in a modern AI model manufacturing process and to bring additional research attention to active learning",
+        "By addressing data automation challenges and coping with automated machine learning systems, active learning will facilitate democratization of AI technologies by boosting model production at scale"
+      ],
+      "technical_terms": [
+        "model",
+        "machine learning",
+        "attention",
+        "neural network"
+      ],
+      "content_length": 4627
+    },
+    {
+      "success": true,
+      "paper_id": "paper_006",
+      "title": "Deep Learning for Robust and Explainable Models in Computer Vision",
+      "url": "https://arxiv.org/abs/2403.18674",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "This thesis addresses robustness and explainability challenges in deep learning for computer vision, using model interpretation to improve robustness"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This thesis addresses robustness and explainability challenges in deep learning for computer vision, using model interpretation to improve robustness",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "model",
+        "deep learning",
+        "neural network",
+        "convolution"
+      ],
+      "content_length": 5148
+    },
+    {
+      "success": true,
+      "paper_id": "paper_001",
+      "title": "Research on the Application of Computer Vision Based on Deep ...",
+      "url": "https://arxiv.org/abs/2406.00490",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "This research aims to explore the application of deep learning in autonomous driving computer vision technology and its impact on improving system performance"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": [
+          "accuracy"
+        ]
+      },
+      "main_contribution": "This research aims to explore the application of deep learning in autonomous driving computer vision technology and its impact on improving system performance",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "deep learning",
+        "neural network",
+        "convolution"
+      ],
+      "content_length": 4569
+    },
+    {
+      "success": true,
+      "paper_id": "paper_009",
+      "title": "Deep Learning for Computer Vision",
+      "url": "https://aimi.stanford.edu/research/focal-areas/deep-learning-computer-vision",
+      "year": 2023,
+      "source": "Other",
+      "key_findings": [
+        "Research on Deep Learning for Computer Vision"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": [
+          "accuracy"
+        ]
+      },
+      "main_contribution": "Deep learning is used for staging osteoarthritis, assessing knee abnormalities, classifying chest radiographs, and predicting brain age from MRI data",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "deep learning",
+        "model",
+        "training",
+        "neural network",
+        "convolution",
+        "machine learning"
+      ],
+      "content_length": 5101
+    },
+    {
+      "success": true,
+      "paper_id": "paper_002",
+      "title": "Computation-efficient Deep Learning for Computer Vision: A Survey",
+      "url": "https://arxiv.org/abs/2308.13998",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Research on Computation-efficient Deep Learning for Computer Vision: A Survey"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This review offers an extensive analysis of this rapidly evolving field by examining four key areas",
+      "limitations": [
+        "High computational cost"
+      ],
+      "technical_terms": [
+        "deep learning",
+        "model",
+        "architecture",
+        "machine learning",
+        "training",
+        "inference"
+      ],
+      "content_length": 4713
+    },
+    {
+      "success": true,
+      "paper_id": "paper_008",
+      "title": "A Systematic Literature Review on Deep Learning-based Depth ...",
+      "url": "https://arxiv.org/abs/2501.05147",
+      "year": 2023,
+      "source": "ArXiv",
+      "key_findings": [
+        "Using defined exclusion and quality criteria, 128 publications were shortlisted and further filtered to select 59 high-quality primary studies",
+        "These studies were analysed to extract data and answer defined research questions",
+        "Based on the results, DL methods were developed for mainly three different types of DE: monocular, stereo, and multi-view"
+      ],
+      "methodology": {
+        "type": "Experimental",
+        "approach": "Deep Learning",
+        "datasets": [],
+        "metrics": []
+      },
+      "main_contribution": "This paper reviews deep learning methods for depth estimation, which provides spatial information for 3D reconstruction, object detection, and scene",
+      "limitations": [
+        "Not explicitly stated"
+      ],
+      "technical_terms": [
+        "deep learning",
+        "model"
+      ],
+      "content_length": 5084
+    }
+  ],
+  "aggregate_insights": {
+    "total_findings": 12,
+    "common_themes": [
+      "deep learning",
+      "neural network",
+      "model",
+      "machine learning",
+      "training",
+      "convolution",
+      "attention",
+      "architecture",
+      "inference"
+    ],
+    "methodological_distribution": {
+      "Empirical": 0.1,
+      "Experimental": 0.7,
+      "Survey": 0.2
+    },
+    "dominant_methodology": "Experimental"
+  },
+  "statistics": {
+    "total_papers": 10,
+    "sources": {
+      "ResearchGate": 1,
+      "ArXiv": 6,
+      "Other": 3
+    },
+    "year_range": {
+      "min": 2023,
+      "max": 2023
+    },
+    "recent_papers": 10,
+    "relevance": {
+      "average": 0.346638611263124,
+      "min": 0.15878808064066693,
+      "max": 0.49656062693509967
+    },
+    "papers_analyzed": 10,
+    "methodologies": {
+      "Empirical": 1,
+      "Experimental": 7,
+      "Survey": 2
+    },
+    "aggregate_insights": {
+      "total_findings": 12,
+      "common_themes": [
+        "deep learning",
+        "neural network",
+        "model",
+        "machine learning",
+        "training",
+        "convolution",
+        "attention",
+        "architecture",
+        "inference"
+      ],
+      "methodological_distribution": {
+        "Empirical": 0.1,
+        "Experimental": 0.7,
+        "Survey": 0.2
+      },
+      "dominant_methodology": "Experimental"
+    }
+  },
+  "phases_completed": [
+    "paper_discovery",
+    "content_analysis"
+  ],
+  "message": "Research completed successfully in 5.1s"
+}
