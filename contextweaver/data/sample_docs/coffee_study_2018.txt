@@ -1,0 +1,13 @@
+Title: Coffee and Cardiovascular Risk Study (2018)
+
+Abstract: This study examines the relationship between coffee consumption
+and cardiovascular disease risk. We analyzed data from 10,000 participants
+over a 5-year period.
+
+Results: Our findings indicate that high coffee consumption (>5 cups/day)
+is associated with a 23% increased risk of cardiovascular events.
+
+Limitations: This study did not control for confounding variables such as
+smoking, sugar intake, or exercise habits.
+
+Conclusion: High coffee consumption may increase cardiovascular risk.
