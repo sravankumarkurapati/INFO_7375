@@ -1,0 +1,52 @@
+{
+  "nodes": [
+    {
+      "id": "doc_0",
+      "content": "Study from 2018 found high coffee consumption increases cardiovascular risk. This study is cited by the 2022 meta-analysis.",
+      "year": 2018,
+      "source": "study_2018.txt",
+      "domain": "medical",
+      "credibility": 0.7,
+      "quality": 0.8
+    },
+    {
+      "id": "doc_1",
+      "content": "A 2022 meta-analysis reviewed previous studies including the 2018 study. Found that confounders explain contradictions.",
+      "year": 2022,
+      "source": "meta_2022.txt",
+      "domain": "research",
+      "credibility": 0.95,
+      "quality": 0.95
+    },
+    {
+      "id": "doc_2",
+      "content": "Recent 2023 research shows moderate coffee consumption beneficial. This contradicts the 2018 findings but aligns with 2022 meta-analysis.",
+      "year": 2023,
+      "source": "study_2023.txt",
+      "domain": "medical",
+      "credibility": 0.9,
+      "quality": 0.9
+    }
+  ],
+  "edges": [
+    {
+      "source": "doc_0",
+      "target": "doc_2",
+      "relationship": "similar_topic",
+      "years_apart": 5,
+      "severity": "HIGH",
+      "confidence": 0.9,
+      "domain": "medical"
+    }
+  ],
+  "statistics": {
+    "num_nodes": 3,
+    "num_edges": 1,
+    "density": 0.16666666666666666,
+    "is_connected": false,
+    "relationship_distribution": {
+      "similar_topic": 1
+    },
+    "avg_degree_centrality": 0.3333333333333333
+  }
+}
