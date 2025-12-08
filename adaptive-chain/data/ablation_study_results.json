@@ -1,0 +1,31 @@
+{
+  "with_transfers": {
+    "mean_cost": 12732004.69915,
+    "std_cost": 0.0,
+    "mean_transfers": 326.0,
+    "episode_costs": [
+      12732004.69915,
+      12732004.69915,
+      12732004.69915,
+      12732004.69915,
+      12732004.69915
+    ]
+  },
+  "without_transfers": {
+    "mean_cost": 14188155.543800002,
+    "std_cost": 1.862645149230957e-09,
+    "mean_transfers": 0.0,
+    "episode_costs": [
+      14188155.543800004,
+      14188155.543800004,
+      14188155.543800004,
+      14188155.543800004,
+      14188155.543800004
+    ]
+  },
+  "transfer_impact": {
+    "cost_difference": -1456150.8446500022,
+    "percent_difference": -10.263144072213931,
+    "estimated_transfer_cost": 163000.0
+  }
+}

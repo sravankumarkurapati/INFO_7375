@@ -1,0 +1,371 @@
+{
+  "scenarios": [
+    {
+      "name": "normal_operations",
+      "description": "Standard operating conditions",
+      "demand_multiplier": 1.0,
+      "lead_time_multiplier": 1.0,
+      "capacity_multiplier": 1.0,
+      "disruption_day": null
+    },
+    {
+      "name": "high_demand",
+      "description": "Sustained high demand period",
+      "demand_multiplier": 1.5,
+      "lead_time_multiplier": 1.0,
+      "capacity_multiplier": 1.0,
+      "disruption_day": null
+    },
+    {
+      "name": "supplier_crisis",
+      "description": "Major supplier delays",
+      "demand_multiplier": 1.0,
+      "lead_time_multiplier": 2.0,
+      "capacity_multiplier": 1.0,
+      "disruption_day": 30
+    },
+    {
+      "name": "demand_shock",
+      "description": "Sudden demand spike",
+      "demand_multiplier": 3.0,
+      "lead_time_multiplier": 1.0,
+      "capacity_multiplier": 1.0,
+      "disruption_day": 45
+    },
+    {
+      "name": "capacity_crisis",
+      "description": "Warehouse capacity constraints",
+      "demand_multiplier": 1.0,
+      "lead_time_multiplier": 1.0,
+      "capacity_multiplier": 0.5,
+      "disruption_day": 20
+    }
+  ],
+  "results": [
+    {
+      "policy": "random",
+      "scenario": "normal_operations",
+      "mean_cost": 5781399.6964,
+      "std_cost": 249092.89604514773,
+      "episode_costs": [
+        5445567.569,
+        5657117.315,
+        6079911.167,
+        5662401.119000001,
+        6062001.312000001
+      ]
+    },
+    {
+      "policy": "reorder_point",
+      "scenario": "normal_operations",
+      "mean_cost": 1476538.2145999998,
+      "std_cost": 34197.58275505311,
+      "episode_costs": [
+        1455292.353,
+        1480914.1599999997,
+        1423087.348,
+        1506833.6080000002,
+        1516563.6039999998
+      ]
+    },
+    {
+      "policy": "dqn",
+      "scenario": "normal_operations",
+      "mean_cost": 2211873.6210000003,
+      "std_cost": 41665.311176641,
+      "episode_costs": [
+        2163633.805,
+        2234622.9779999997,
+        2159293.5239999993,
+        2247502.638000001,
+        2254315.1599999997
+      ]
+    },
+    {
+      "policy": "independent_multi_agent",
+      "scenario": "normal_operations",
+      "mean_cost": 5349338.80712,
+      "std_cost": 121909.12276585432,
+      "episode_costs": [
+        5199192.31295,
+        5413106.462799998,
+        5204684.624200001,
+        5458300.689,
+        5471409.946649999
+      ]
+    },
+    {
+      "policy": "coordinated_multi_agent",
+      "scenario": "normal_operations",
+      "mean_cost": 12759828.883250002,
+      "std_cost": 81068.11414029388,
+      "episode_costs": [
+        12667244.066299995,
+        12796808.404550001,
+        12670229.726400001,
+        12785791.068199998,
+        12879071.150800005
+      ]
+    },
+    {
+      "policy": "random",
+      "scenario": "high_demand",
+      "mean_cost": 5930005.8045,
+      "std_cost": 300360.9082311757,
+      "episode_costs": [
+        5426890.055,
+        6349391.354,
+        5962564.862,
+        5856333.267,
+        6054849.484499999
+      ]
+    },
+    {
+      "policy": "reorder_point",
+      "scenario": "high_demand",
+      "mean_cost": 2396447.9259,
+      "std_cost": 50248.01153350145,
+      "episode_costs": [
+        2365475.5585,
+        2396572.7239999995,
+        2320023.6565,
+        2444137.5204999996,
+        2456030.1700000004
+      ]
+    },
+    {
+      "policy": "dqn",
+      "scenario": "high_demand",
+      "mean_cost": 3334656.4138999996,
+      "std_cost": 62436.10919428941,
+      "episode_costs": [
+        3262429.943999999,
+        3369456.8435,
+        3255682.5564999995,
+        3387744.2419999987,
+        3397968.4835
+      ]
+    },
+    {
+      "policy": "independent_multi_agent",
+      "scenario": "high_demand",
+      "mean_cost": 8793002.262155002,
+      "std_cost": 193567.18969688052,
+      "episode_costs": [
+        8569064.487625001,
+        8900801.895175003,
+        8548194.903699994,
+        8957648.970800001,
+        8989301.053475006
+      ]
+    },
+    {
+      "policy": "coordinated_multi_agent",
+      "scenario": "high_demand",
+      "mean_cost": 15009660.945804998,
+      "std_cost": 151121.32845253628,
+      "episode_costs": [
+        14823707.792350002,
+        15220536.817975,
+        14936464.408324994,
+        14914177.294799997,
+        15153418.415575003
+      ]
+    },
+    {
+      "policy": "random",
+      "scenario": "supplier_crisis",
+      "mean_cost": 5651811.5772,
+      "std_cost": 164296.52979660805,
+      "episode_costs": [
+        5684994.841,
+        5596051.896,
+        5364844.049999999,
+        5822353.600000001,
+        5790813.499
+      ]
+    },
+    {
+      "policy": "reorder_point",
+      "scenario": "supplier_crisis",
+      "mean_cost": 1642021.4353999996,
+      "std_cost": 34443.31792138403,
+      "episode_costs": [
+        1624632.728,
+        1643760.839,
+        1586559.8249999997,
+        1674264.281,
+        1680889.504
+      ]
+    },
+    {
+      "policy": "dqn",
+      "scenario": "supplier_crisis",
+      "mean_cost": 2211873.6210000003,
+      "std_cost": 41665.311176641,
+      "episode_costs": [
+        2163633.805,
+        2234622.9779999997,
+        2159293.5239999993,
+        2247502.638000001,
+        2254315.1599999997
+      ]
+    },
+    {
+      "policy": "independent_multi_agent",
+      "scenario": "supplier_crisis",
+      "mean_cost": 5387113.28063,
+      "std_cost": 126654.45098339635,
+      "episode_costs": [
+        5236153.8767,
+        5457355.884399998,
+        5231084.147500001,
+        5497917.366900001,
+        5513055.12765
+      ]
+    },
+    {
+      "policy": "coordinated_multi_agent",
+      "scenario": "supplier_crisis",
+      "mean_cost": 12720223.02416,
+      "std_cost": 116918.28618664456,
+      "episode_costs": [
+        12537429.944999998,
+        12822575.59815,
+        12626516.82375,
+        12791238.987599997,
+        12823353.766300002
+      ]
+    },
+    {
+      "policy": "random",
+      "scenario": "demand_shock",
+      "mean_cost": 7046181.829000001,
+      "std_cost": 419097.05659347435,
+      "episode_costs": [
+        6835065.519999999,
+        6531918.243000001,
+        7591853.451000001,
+        6778775.884,
+        7493296.046999999
+      ]
+    },
+    {
+      "policy": "reorder_point",
+      "scenario": "demand_shock",
+      "mean_cost": 5459070.3714000005,
+      "std_cost": 124506.53617969196,
+      "episode_costs": [
+        5315323.858999999,
+        5529932.049999999,
+        5301077.738000002,
+        5564235.940999999,
+        5584782.269000001
+      ]
+    },
+    {
+      "policy": "dqn",
+      "scenario": "demand_shock",
+      "mean_cost": 6705633.111599999,
+      "std_cost": 124824.86570584746,
+      "episode_costs": [
+        6560956.081999998,
+        6776774.066000001,
+        6547755.7009999985,
+        6811035.007999998,
+        6831644.700999999
+      ]
+    },
+    {
+      "policy": "independent_multi_agent",
+      "scenario": "demand_shock",
+      "mean_cost": 19243097.430650003,
+      "std_cost": 387058.2656420547,
+      "episode_costs": [
+        18794506.266250003,
+        19464280.985299997,
+        18753425.061549988,
+        19569751.449100006,
+        19633523.391050007
+      ]
+    },
+    {
+      "policy": "coordinated_multi_agent",
+      "scenario": "demand_shock",
+      "mean_cost": 20491873.04677,
+      "std_cost": 1411823.775272223,
+      "episode_costs": [
+        20056564.76825,
+        19858421.4345,
+        19281778.646250002,
+        23261416.863250006,
+        20001183.521599997
+      ]
+    },
+    {
+      "policy": "random",
+      "scenario": "capacity_crisis",
+      "mean_cost": 5055677.0322,
+      "std_cost": 306601.3415040326,
+      "episode_costs": [
+        4986465.387000001,
+        4993851.837,
+        4548255.652,
+        5367212.000000001,
+        5382600.285
+      ]
+    },
+    {
+      "policy": "reorder_point",
+      "scenario": "capacity_crisis",
+      "mean_cost": 1476538.2145999998,
+      "std_cost": 34197.58275505311,
+      "episode_costs": [
+        1455292.353,
+        1480914.1599999997,
+        1423087.348,
+        1506833.6080000002,
+        1516563.6039999998
+      ]
+    },
+    {
+      "policy": "dqn",
+      "scenario": "capacity_crisis",
+      "mean_cost": 2211873.6210000003,
+      "std_cost": 41665.311176641,
+      "episode_costs": [
+        2163633.805,
+        2234622.9779999997,
+        2159293.5239999993,
+        2247502.638000001,
+        2254315.1599999997
+      ]
+    },
+    {
+      "policy": "independent_multi_agent",
+      "scenario": "capacity_crisis",
+      "mean_cost": 5349338.80712,
+      "std_cost": 121909.12276585432,
+      "episode_costs": [
+        5199192.31295,
+        5413106.462799998,
+        5204684.624200001,
+        5458300.689,
+        5471409.946649999
+      ]
+    },
+    {
+      "policy": "coordinated_multi_agent",
+      "scenario": "capacity_crisis",
+      "mean_cost": 10776718.40012,
+      "std_cost": 112954.5348576367,
+      "episode_costs": [
+        10664920.029000001,
+        10793439.539749997,
+        10644311.6117,
+        10828779.314299997,
+        10952141.50585
+      ]
+    }
+  ]
+}
