@@ -1,0 +1,85 @@
+{
+  "confidence_intervals": {
+    "random": {
+      "mean": 5300340.937999999,
+      "ci_lower": 5078674.02171998,
+      "ci_upper": 5522007.854280018
+    },
+    "reorder_point": {
+      "mean": 1061198.65,
+      "ci_lower": 1061198.65,
+      "ci_upper": 1061198.65
+    },
+    "eoq": {
+      "mean": 1942624.2450000003,
+      "ci_lower": 1942624.245,
+      "ci_upper": 1942624.2450000006
+    },
+    "dqn_single": {
+      "mean": 2271629.2430000016,
+      "ci_lower": 2271629.2430000016,
+      "ci_upper": 2271629.2430000016
+    }
+  },
+  "ttests": [
+    {
+      "group1_name": "Random",
+      "group2_name": "Reorder Point",
+      "group1_mean": 5300340.937999999,
+      "group2_mean": 1061198.65,
+      "group1_std": 309868.98207652493,
+      "group2_std": 0.0,
+      "t_statistic": 43.26133214684552,
+      "p_value": 1.2033354635611296e-19,
+      "cohens_d": 19.3470558955087,
+      "significance": "***",
+      "interpretation": "Highly significant",
+      "effect_size": "Large"
+    },
+    {
+      "group1_name": "Random",
+      "group2_name": "DQN",
+      "group1_mean": 5300340.937999999,
+      "group2_mean": 2271629.2430000016,
+      "group1_std": 309868.98207652493,
+      "group2_std": 0.0,
+      "t_statistic": 30.908635217396224,
+      "p_value": 4.731256163030451e-17,
+      "cohens_d": 13.82276188756839,
+      "significance": "***",
+      "interpretation": "Highly significant",
+      "effect_size": "Large"
+    },
+    {
+      "group1_name": "Independent Agents",
+      "group2_name": "Coordinated Agents",
+      "group1_mean": 5545475.33225,
+      "group2_mean": 12910475.562649999,
+      "group1_std": 0.0,
+      "group2_std": 0.0,
+      "t_statistic": -Infinity,
+      "p_value": 0.0,
+      "cohens_d": 0,
+      "significance": "***",
+      "interpretation": "Highly significant",
+      "effect_size": "Negligible"
+    }
+  ],
+  "key_findings": [
+    {
+      "finding": "Classical Reorder Point policy is statistically superior for single-warehouse optimization",
+      "evidence": "Cost: $1,061,199 (80% better than random)",
+      "implication": "Classical OR methods remain competitive for stable demand patterns"
+    },
+    {
+      "finding": "DQN demonstrates significant learning capability",
+      "evidence": "Achieved 57.1% improvement over random policy",
+      "implication": "Value-based RL can learn effective policies through experience"
+    },
+    {
+      "finding": "Coordination with inventory transfers incurs excessive overhead",
+      "evidence": "Coordinated agents: 132.8% worse than independent (7,365,000 additional cost)",
+      "implication": "Transfer costs must be carefully considered in multi-agent coordination strategies"
+    }
+  ]
+}

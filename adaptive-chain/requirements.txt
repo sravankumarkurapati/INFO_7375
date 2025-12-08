@@ -1,0 +1,21 @@
+# Core RL - Day 1
+gymnasium==0.29.1
+stable-baselines3==2.2.1
+torch>=2.6.0
+tensorboard>=2.15.0
+
+# Data & Math
+numpy>=1.24.0
+pandas>=2.1.0
+scipy>=1.11.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.17.0
+
+# Utilities
+tqdm>=4.66.0
+pyyaml>=6.0.1
+
+# NOTE: Ray[rllib] will be installed on Day 2 in separate environment

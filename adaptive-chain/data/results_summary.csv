@@ -1,0 +1,9 @@
+Policy,Mean Cost,Std Dev,Warehouses,Coordination,vs Random
+Random (1 WH),"$5,300,341","$293,968",1,None,0%
+Reorder Point (1 WH),"$1,061,199",$0,1,None,80.0%
+EOQ (1 WH),"$1,942,624",$0,1,None,63.3%
+Random (3 WH),"$15,901,023","$881,903",3,None,0%
+Reorder Point (3 WH),"$3,183,596",$0,3,None,80.0%
+DQN (1 WH),"$2,271,629",$0,1,None,57.1%
+Independent DQN (3 WH),"$5,545,475",$0,3,None,65.1%
+Coordinated DQN (3 WH),"$12,910,476",$0,3,With Transfers,18.8%

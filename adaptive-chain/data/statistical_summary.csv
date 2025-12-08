@@ -1,0 +1,7 @@
+Policy,Warehouses,Mean Cost,Std Dev,95% CI,N
+Random,1,"$5,300,341","$293,968","[$5,300,341, $5,300,341]",10
+Reorder Point,1,"$1,061,199",$0,N/A (deterministic),10
+Eoq,1,"$1,942,624",$0,"[$1,942,624, $1,942,624]",10
+DQN,1,"$2,271,629",$0,N/A (deterministic),10
+Independent DQN,3,"$5,545,475",$0,N/A (deterministic),10
+Coordinated DQN,3,"$12,910,476",$0,N/A (deterministic),10
