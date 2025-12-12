@@ -5,8 +5,8 @@ from datetime import datetime
 from pathlib import Path
 import pypdf
 from docx import Document as DocxDocument
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.schema import Document
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_core.documents import Document
 from tqdm import tqdm
 import re
 import logging

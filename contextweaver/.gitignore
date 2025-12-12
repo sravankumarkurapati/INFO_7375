@@ -1,43 +1,209 @@
-# Python
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
+# ==================== CONTEXTWEAVER .gitignore ====================
 
-# Environment
+# ==================== LARGE DATA FILES ====================
+# Vector Database (ChromaDB generates large files)
+data/chroma_db/
+data/chroma_db/*
+*.chroma
+chroma.sqlite3
+
+# Knowledge Base Data
+data/sample_docs/*.pdf
+data/sample_docs/*.docx
+data/synthetic_data/
+data/benchmarks/
+
+# Graph Exports (can be large)
+data/graph_exports/
+*.json.gz
+
+# ==================== PYTHON ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==================== ENVIRONMENT & SECRETS ====================
+# Environment variables (CRITICAL - Contains API keys!)
 .env
 .env.local
+.env.*.local
+*.env
 
-# Data & Models
-data/chroma_db/
-data/synthetic_data/*.json
-*.pkl
-*.h5
-*.model
+# API Keys backup
+api_keys.txt
+keys.txt
+secrets.txt
 
-# IDE
+# ==================== IDE / EDITOR ====================
+# VS Code
 .vscode/
-.idea/
-*.swp
-*.swo
-.DS_Store
+*.code-workspace
 
-# Jupyter
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Jupyter Notebook
 .ipynb_checkpoints/
 *.ipynb
 
+# Spyder
+.spyderproject
+.spyproject
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ==================== OPERATING SYSTEM ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ==================== LOGS & TEMPORARY FILES ====================
 # Logs
 *.log
 logs/
+*.log.*
 
-# Temporary
-temp/
-tmp/
+# Temporary files
 *.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# ==================== STREAMLIT ====================
+.streamlit/secrets.toml
+
+# ==================== MODEL & EMBEDDING CACHE ====================
+# Hugging Face cache
+.cache/huggingface/
+transformers_cache/
+
+# LangChain cache
+.langchain/
+
+# OpenAI cache (if any)
+.openai_cache/
+
+# ==================== GENERATED OUTPUTS ====================
+# Generated reports
+reports/
+output/
+results/
+
+# Exported data
+exports/
+*.zip
+*.tar.gz
+
+# Screenshots/Videos (if large)
+demo_videos/
+screenshots/*.mp4
+screenshots/*.mov
+
+# ==================== PROJECT SPECIFIC ====================
+# Your large sample documents (keep small examples only)
+data/sample_docs/large_*.txt
+data/sample_docs/corpus_*.txt
+
+# Synthetic data outputs (can regenerate)
+data/synthetic_data/*.json
+data/benchmarks/*.json
+
+# Graph visualizations (large HTML files)
+data/graph_exports/*.html
+
+# Test outputs
+test_outputs/
+test_results/
+
+# ==================== OPTIONAL: KEEP SMALL EXAMPLES ====================
+# Allow small example files for demonstration
+!data/sample_docs/coffee_study_2018.txt
+!data/sample_docs/coffee_study_2023.txt
+!data/sample_docs/meta_analysis_2022.txt
+!data/graph_exports/sample_graph.json
+
+# ==================== DEPLOYMENT ====================
+# Deployment configs (if sensitive)
+docker-compose.override.yml
+.dockerignore
+
+# Cloud deployment
+.gcloud/
+.aws/
+
+# ==================== DOCUMENTATION DRAFTS ====================
+# Draft documents (keep final versions only)
+docs/drafts/
+*_DRAFT.pdf
+*_WIP.pdf
+
+# ==================== MISC ====================
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Backup files
+*.bak
+*.backup

@@ -1,0 +1,17 @@
+Title: Meta-Analysis of Coffee and Heart Health Studies (2022)
+
+Abstract: This meta-analysis reviews 50 studies published between 2010-2022
+examining coffee's effects on cardiovascular health.
+
+Key Findings:
+- Early studies (2010-2019) showed mixed results
+- Studies failing to control for confounders showed negative effects
+- Recent studies with better controls show neutral or positive effects
+- The apparent contradiction stems from methodological differences
+
+Explanation: Previous negative findings were likely due to confounding
+variables. Coffee itself does not increase cardiovascular risk when
+consumed moderately.
+
+Recommendation: Current evidence supports moderate coffee consumption
+as safe or potentially beneficial for heart health.
