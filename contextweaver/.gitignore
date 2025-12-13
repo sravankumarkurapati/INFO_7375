@@ -8,9 +8,6 @@ data/chroma_db/*
 chroma.sqlite3
 
 # Knowledge Base Data
-data/sample_docs/*.pdf
-data/sample_docs/*.docx
-data/synthetic_data/
 data/benchmarks/
 
 # Graph Exports (can be large)
@@ -157,11 +154,8 @@ screenshots/*.mov
 
 # ==================== PROJECT SPECIFIC ====================
 # Your large sample documents (keep small examples only)
-data/sample_docs/large_*.txt
-data/sample_docs/corpus_*.txt
 
-# Synthetic data outputs (can regenerate)
-data/synthetic_data/*.json
+
 data/benchmarks/*.json
 
 # Graph visualizations (large HTML files)
@@ -173,10 +167,6 @@ test_results/
 
 # ==================== OPTIONAL: KEEP SMALL EXAMPLES ====================
 # Allow small example files for demonstration
-!data/sample_docs/coffee_study_2018.txt
-!data/sample_docs/coffee_study_2023.txt
-!data/sample_docs/meta_analysis_2022.txt
-!data/graph_exports/sample_graph.json
 
 # ==================== DEPLOYMENT ====================
 # Deployment configs (if sensitive)

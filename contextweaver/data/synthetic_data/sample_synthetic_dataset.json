@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_by": "ContextWeaver Synthetic Data Generator",
+    "timestamp": "2025-12-12T19:16:15",
+    "quality_score": 0.944,
+    "diversity_score": 0.819,
+    "num_samples": 3,
+    "purpose": "Training/Testing sample dataset"
+  },
+  "qa_pairs": [
+    {
+      "question": "What did the 2023 study find about moderate coffee consumption?",
+      "answer": "The 2023 study found that moderate coffee consumption (2-3 cups per day) is associated with a 15% reduction in cardiovascular disease risk when confounding factors are properly controlled.",
+      "difficulty": "easy",
+      "requires_docs": 1,
+      "source_docs": ["coffee_study_2023.txt"],
+      "generated_at": "2025-12-12T19:16:15"
+    },
+    {
+      "question": "How does the recent research on the protective cardiovascular effects of coffee consumption compare to earlier findings?",
+      "answer": "Recent 2023 research contrasts with earlier 2018 findings. The 2018 study found increased risk, but lacked controls for confounders. The 2023 study, with rigorous methodology, found protective effects for moderate consumption.",
+      "difficulty": "medium",
+      "requires_docs": 2,
+      "reasoning_steps": [
+        "Compare 2018 vs 2023 findings",
+        "Identify methodological differences",
+        "Note consumption level distinction"
+      ],
+      "source_docs": ["coffee_study_2018.txt", "coffee_study_2023.txt"],
+      "generated_at": "2025-12-12T19:16:15"
+    },
+    {
+      "question": "Based on the evolution of coffee research from 2018-2023, what can we conclude about the role of confounding variables?",
+      "answer": "The evolution demonstrates the critical importance of controlling confounding variables. Early studies showing negative effects failed to account for smoking, sugar intake, and exercise. When the 2023 study implemented rigorous controls, it found opposite results - protective effects instead of harm.",
+      "difficulty": "hard",
+      "requires_docs": 3,
+      "reasoning_steps": [
+        "Analyze 2018 methodology",
+        "Review 2022 meta-analysis critique",
+        "Compare with 2023 improvements",
+        "Synthesize methodological lesson"
+      ],
+      "source_docs": ["coffee_study_2018.txt", "meta_analysis_2022.txt", "coffee_study_2023.txt"],
+      "generated_at": "2025-12-12T19:16:15"
+    }
+  ],
+  "quality_metrics": {
+    "overall_quality": 0.944,
+    "high_quality_ratio": 1.0,
+    "completeness": 1.0,
+    "coherence": 0.88
+  },
+  "diversity_metrics": {
+    "overall_diversity": 0.819,
+    "lexical_diversity": 0.457,
+    "difficulty_distribution": {
+      "easy": 1,
+      "medium": 1,
+      "hard": 1
+    }
+  },
+  "ethical_compliance": {
+    "no_pii": true,
+    "bias_score": 0.12,
+    "harmful_content": false,
+    "attribution": true
+  }
+}
