@@ -1,0 +1,74 @@
+{
+  "query": "Is moderate coffee consumption safe for heart health?",
+  "timestamp": "2025-12-12T19:16:15",
+  "answer": "Yes, moderate coffee consumption is considered safe for heart health, as recent research indicates that consuming 2-3 cups of coffee per day may have protective cardiovascular effects, including a 15% reduction in cardiovascular disease risk [study_2023.txt, 2023].",
+  "retrieval": {
+    "retrieval_source": "local",
+    "num_documents": 4,
+    "retrieval_confidence": 0.9,
+    "top_sources": [
+      "coffee_study_2023.txt",
+      "meta_analysis_2022.txt",
+      "coffee_study_2018.txt"
+    ],
+    "web_results_used": 0,
+    "local_results_used": 4
+  },
+  "reasoning": {
+    "hops_used": 1,
+    "confidence": 0.85,
+    "reasoning_chain": [
+      {
+        "hop_number": 1,
+        "extracted_info": "2023 study shows moderate coffee beneficial",
+        "intermediate_conclusion": "Moderate consumption is safe based on recent evidence",
+        "sufficient_info": true
+      }
+    ]
+  },
+  "contradictions": {
+    "num_contradictions": 2,
+    "overall_severity": "HIGH",
+    "contradictions": [
+      {
+        "claim_A": "High coffee increases risk by 23%",
+        "source_A": "study_2018.txt",
+        "claim_B": "Moderate coffee reduces risk by 15%",
+        "source_B": "study_2023.txt",
+        "severity": "HIGH",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "uncertainty": {
+    "confidence_score": 0.699,
+    "confidence_level": "MODERATE",
+    "uncertainty_sources": [
+      "Contradictory evidence (2 contradictions found)"
+    ],
+    "component_scores": {
+      "evidence_sufficiency": 0.65,
+      "source_agreement": 0.95,
+      "source_quality": 0.925,
+      "contradiction_penalty": 0.301
+    }
+  },
+  "fact_check": {
+    "overall_score": 0.33,
+    "verification_level": "PARTIALLY VERIFIED",
+    "num_verified": 2,
+    "num_claims": 6
+  },
+  "components_used": {
+    "multi_hop_reasoning": true,
+    "contradiction_detection": true,
+    "uncertainty_quantification": true,
+    "fact_checking": true,
+    "hybrid_retrieval": true
+  },
+  "performance": {
+    "query_time_seconds": 27.69,
+    "api_calls": 7,
+    "tokens_used": 3200
+  }
+}
