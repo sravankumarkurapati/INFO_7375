@@ -1171,8 +1171,8 @@ st.markdown("""
     <p style="color: rgba(255,255,255,0.9); font-size: 1rem; margin-bottom: 0.3rem;">~4,000+ Lines of Code • Production-Ready Architecture</p>
     <p style="color: rgba(255,255,255,0.85); font-size: 0.95rem;">Hybrid Retrieval • Multi-Hop Reasoning • Uncertainty Quantification • Fact-Checking</p>
     <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px solid rgba(255,255,255,0.3);">
-        <p style="color: #ffffff; font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600;">INFO 7375 - Generative AI • Final Project</p>
-        <p style="color: rgba(255,255,255,0.95); font-size: 1.05rem; margin-bottom: 1.5rem;">Northeastern University • Fall 2024</p>
+        <p style="color: #ffffff; font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600;">INFO 7375 - Prompt Engineering Generative AI • Final Project</p>
+        <p style="color: rgba(255,255,255,0.95); font-size: 1.05rem; margin-bottom: 1.5rem;">Northeastern University • Fall 2025</p>
         <p style="color: #ffffff; font-size: 1.3rem; font-weight: 700;">Sravan Kumar Kurapati</p>
     </div>
 </div>
